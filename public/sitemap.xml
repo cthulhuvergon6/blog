@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/pages/about/</loc>
+    <lastmod>2022-01-04T03:42:18-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/posts/about/</loc>
+    <lastmod>2022-01-04T03:42:18-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/</loc>
+    <lastmod>2022-01-04T03:42:18-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/pages/</loc>
+    <lastmod>2022-01-04T03:42:18-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/posts/</loc>
+    <lastmod>2022-01-04T03:42:18-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/posts/mi-primer-post/</loc>
+    <lastmod>2022-01-04T02:13:16-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/tags/</loc>
+  </url>
+  
+</urlset>

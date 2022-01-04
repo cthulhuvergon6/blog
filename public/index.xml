@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Codigo novato</title>
+    <link>https://codigonovato.netlify.app/</link>
+    <description>Recent content on Codigo novato</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Jan 2022 03:42:18 -0600</lastBuildDate><atom:link href="https://codigonovato.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://codigonovato.netlify.app/pages/about/</link>
+      <pubDate>Tue, 04 Jan 2022 03:42:18 -0600</pubDate>
+      
+      <guid>https://codigonovato.netlify.app/pages/about/</guid>
+      <description>Hola que tal, mi nombre es &amp;ldquo;El Señor Robot&amp;rdquo;, soy un friki de la computación, no son un experto pero realize este pequeño blog con el proposito de transcribir mis notas de programación en python, linux, docker y algo mas para que puedan ser se ayuda para los demás, como dije, no soy un experto, pero tratare de entrar en detalles sobre lo que escriba, soy nuego con sitios hechos en hugo así que tal vez puedan observar uno que otro error en el blog(ortografico, por no decir en todo).</description>
+      <content>&lt;p&gt;Hola que tal, mi nombre es &amp;ldquo;El Señor Robot&amp;rdquo;, soy un friki de la computación,
+no son un experto pero realize este pequeño blog con el proposito de transcribir
+mis notas de programación en python, linux, docker y algo mas para que puedan
+ser se ayuda para los demás, como dije, no soy un experto, pero tratare de entrar en
+detalles sobre lo que escriba, soy nuego con sitios hechos en hugo así que tal vez
+puedan observar uno que otro error en el blog(ortografico, por no decir en todo).&lt;/p&gt;
+&lt;p&gt;esto es algo breve, espero poder ser de ayuda para los demas y acepto retroalimentación
+ya que nunca dejamos de aprender.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://codigonovato.netlify.app/posts/about/</link>
+      <pubDate>Tue, 04 Jan 2022 03:42:18 -0600</pubDate>
+      
+      <guid>https://codigonovato.netlify.app/posts/about/</guid>
+      <description>Hola que tal, mi nombre es &amp;ldquo;El Señor Robot&amp;rdquo;, soy un friki de la computación, no son un experto pero realize este pequeño blog con el proposito de transcribir mis notas de programación en python, linux, docker y algo mas para que puedan ser se ayuda para los demás, como dije, no soy un experto, pero tratare de entrar en detalles sobre lo que escriba, soy nuego con sitios hechos en hugo así que tal vez puedan observar uno que otro error en el blog(ortografico, por no decir en todo).</description>
+      <content>&lt;p&gt;Hola que tal, mi nombre es &amp;ldquo;El Señor Robot&amp;rdquo;, soy un friki de la computación,
+no son un experto pero realize este pequeño blog con el proposito de transcribir
+mis notas de programación en python, linux, docker y algo mas para que puedan
+ser se ayuda para los demás, como dije, no soy un experto, pero tratare de entrar en
+detalles sobre lo que escriba, soy nuego con sitios hechos en hugo así que tal vez
+puedan observar uno que otro error en el blog(ortografico, por no decir en todo).&lt;/p&gt;
+&lt;p&gt;esto es algo breve, espero poder ser de ayuda para los demas y acepto retroalimentación
+ya que nunca dejamos de aprender.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Mi Primer Post</title>
+      <link>https://codigonovato.netlify.app/posts/mi-primer-post/</link>
+      <pubDate>Tue, 04 Jan 2022 02:13:16 -0600</pubDate>
+      
+      <guid>https://codigonovato.netlify.app/posts/mi-primer-post/</guid>
+      <description>#esto es una prueba</description>
+      <content>&lt;p&gt;#esto es una prueba&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
