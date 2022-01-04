@@ -1,4 +1,4 @@
 baseURL = "https://codigonovato.netlify.app/"
 languageCode = "mx-es"
-title = "--Codigo Novato--"
+title = "--CN--"
 theme = "terminal"
