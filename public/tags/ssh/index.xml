@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Codigo novato</title>
-    <link>https://codigonovato.netlify.app/posts/</link>
-    <description>Recent content in Posts on Codigo novato</description>
+    <title>ssh on Codigo novato</title>
+    <link>https://codigonovato.netlify.app/tags/ssh/</link>
+    <description>Recent content in ssh on Codigo novato</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Jan 2022 05:09:51 -0600</lastBuildDate><atom:link href="https://codigonovato.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jan 2022 05:09:51 -0600</lastBuildDate><atom:link href="https://codigonovato.netlify.app/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crear un blog con hugo, github y netlify</title>
       <link>https://codigonovato.netlify.app/posts/crear-blog-con-hugo-github-y-netlify/</link>
@@ -41,17 +41,6 @@ El proceso lo realice en mi servidor de escritorio (carisimo), es un equipo muy 
 &lt;p&gt;&lt;a href=&#34;https://asciinema.org/a/4HlRuLHLhRgcTK1oVOMwm8YNA&#34;&gt;&lt;img src=&#34;https://asciinema.org/a/4HlRuLHLhRgcTK1oVOMwm8YNA.svg&#34; alt=&#34;asciicast&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Resultado:
 &lt;img src=&#34;https://codigonovato.netlify.app/sitio_de_prueba.png&#34; alt=&#34;configtoml&#34; title=&#34;Contenido del archivo&#34;&gt;&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Mi Primer Post</title>
-      <link>https://codigonovato.netlify.app/posts/mi-primer-post/</link>
-      <pubDate>Tue, 04 Jan 2022 02:13:16 -0600</pubDate>
-      
-      <guid>https://codigonovato.netlify.app/posts/mi-primer-post/</guid>
-      <description>#esto es una prueba</description>
-      <content>&lt;p&gt;#esto es una prueba&lt;/p&gt;
 </content>
     </item>
     
