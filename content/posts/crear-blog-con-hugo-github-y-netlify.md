@@ -42,4 +42,4 @@ Ya contamos con lo esencial, ahora nos moveremos al directorio donde tendremos n
 
 Como pudimos ver ya tenemos el esqueleto de nuestro proyecto, por el momento nos centraremos en un par de directorios y un archivo config.toml, content y themes. El archivo config.toml contendra la configuraciones como el tema, el lenguaje, el menu, por mencionar alguno. Veamos que contiene actualmente, nano config.toml:
 
-![configtoml](/config.png)
+![configtoml](static/config.png)
