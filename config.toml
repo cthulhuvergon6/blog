@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://codigonovato.netlify.app/"
 languageCode = "en-us"
 title = "--CN--"
 theme = "terminal"
@@ -75,7 +75,7 @@ theme = "terminal"
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
-        url = "pages/about"
+        url = "https://codigonovato.netlify.app/pages/about"
       #[[languages.en.menu.main]]
        # identifier = "showcase"
         #name = "Showcase"
