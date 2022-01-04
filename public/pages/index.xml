@@ -15,7 +15,10 @@
       <guid>https://codigonovato.netlify.app/pages/about/</guid>
       <description>Hola que tal, mi nombre es &amp;ldquo;El Señor Robot&amp;rdquo;, soy un friki de la computación, no son un experto pero realizó este pequeño blog con el propósito de transcribir mis notas de programación en python, linux, docker y algo mas, con la esperanza de que poder ayudar, como dije, no soy un experto, pero tratare de entrar en detalles sobre lo que escriba, soy nuevo con sitios hechos en HUGO así que tal vez puedan observar uno que otro error en el blog (ortográfico, por no decir en todo).</description>
       <content>&lt;p&gt;Hola que tal, mi nombre es &lt;strong&gt;&amp;ldquo;El Señor Robot&amp;rdquo;&lt;/strong&gt;, soy un friki de la computación, no son un experto pero realizó este pequeño blog con el propósito de transcribir mis notas de programación en &lt;em&gt;python, linux, docker y algo mas&lt;/em&gt;, con la esperanza de que poder ayudar, como dije, no soy un experto, pero tratare de entrar en detalles sobre lo que escriba, soy nuevo con sitios hechos en &lt;a href=&#34;https://gohugo.io/&#34;&gt;HUGO&lt;/a&gt; así que tal vez puedan observar uno que otro error en el blog (ortográfico, por no decir en todo).&lt;/p&gt;
-&lt;p&gt;Esto fue una presentación algo breve, espero poder ser de ayuda para los demás y acepto retroalimentación. nunca dejamos de aprender.&lt;/p&gt;
+&lt;p&gt;Esto fue una presentación algo breve, espero poder ser de ayuda para los demás y acepto retroalimentación.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Nunca dejes de aprender.&lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
     </item>
     
