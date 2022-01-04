@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Codigo novato</title>
-    <link>https://codigonovato.netlify.app/</link>
-    <description>Recent content on Codigo novato</description>
+    <title>blog on Codigo novato</title>
+    <link>https://codigonovato.netlify.app/tags/blog/</link>
+    <description>Recent content in blog on Codigo novato</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Jan 2022 05:09:51 -0600</lastBuildDate><atom:link href="https://codigonovato.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jan 2022 05:09:51 -0600</lastBuildDate><atom:link href="https://codigonovato.netlify.app/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crear Blog con hugo, github y netlify</title>
       <link>https://codigonovato.netlify.app/posts/crear-blog-con-hugogithub-y-netlify/</link>
@@ -29,33 +29,6 @@ El proceso lo realice en mi servidor de escritorio (carisimo), es un equipo muy 
 &lt;h2 id=&#34;crear-directorio-hugo&#34;&gt;Crear directorio hugo.&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://asciinema.org/a/imTTB4dq3uhuQrp73yTrNrSkV&#34;&gt;&lt;img src=&#34;https://asciinema.org/a/imTTB4dq3uhuQrp73yTrNrSkV.svg&#34; alt=&#34;asciicast&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;No le encontré la forma de hacer que se reproduzcan los vídeos desde la pagina, hay disculparan&lt;/em&gt;&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://codigonovato.netlify.app/pages/about/</link>
-      <pubDate>Tue, 04 Jan 2022 03:42:18 -0600</pubDate>
-      
-      <guid>https://codigonovato.netlify.app/pages/about/</guid>
-      <description>Hola que tal, mi nombre es &amp;ldquo;El Señor Robot&amp;rdquo;, soy un friki de la computación, no son un experto pero realizó este pequeño blog con el propósito de transcribir mis notas de programación en python, linux, docker y algo mas, con la esperanza de que poder ayudar, como dije, no soy un experto, pero tratare de entrar en detalles sobre lo que escriba, soy nuevo con sitios hechos en HUGO así que tal vez puedan observar uno que otro error en el blog (ortográfico, por no decir en todo), tratare de hacer el blog lo más amigable posible, incluso podria decir, salir de lo cotidiano para hacerte sentir como si estuvieras con un amig@.</description>
-      <content>&lt;p&gt;Hola que tal, mi nombre es &lt;strong&gt;&amp;ldquo;El Señor Robot&amp;rdquo;&lt;/strong&gt;, soy un friki de la computación, no son un experto pero realizó este pequeño blog con el propósito de transcribir mis notas de programación en &lt;em&gt;python, linux, docker y algo mas&lt;/em&gt;, con la esperanza de que poder ayudar, como dije, no soy un experto, pero tratare de entrar en detalles sobre lo que escriba, soy nuevo con sitios hechos en &lt;a href=&#34;https://gohugo.io/&#34;&gt;HUGO&lt;/a&gt; así que tal vez puedan observar uno que otro error en el blog (ortográfico, por no decir en todo), tratare
-de hacer el blog lo más amigable posible, incluso podria decir, salir de lo cotidiano para hacerte sentir como si estuvieras con un amig@.&lt;/p&gt;
-&lt;p&gt;Esto fue una presentación algo breve, espero poder ser de ayuda para los demás y acepto retroalimentación.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Nunca dejes de aprender.&lt;/p&gt;
-&lt;/blockquote&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Mi Primer Post</title>
-      <link>https://codigonovato.netlify.app/posts/mi-primer-post/</link>
-      <pubDate>Tue, 04 Jan 2022 02:13:16 -0600</pubDate>
-      
-      <guid>https://codigonovato.netlify.app/posts/mi-primer-post/</guid>
-      <description>#esto es una prueba</description>
-      <content>&lt;p&gt;#esto es una prueba&lt;/p&gt;
 </content>
     </item>
     

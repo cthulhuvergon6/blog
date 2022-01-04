@@ -1,7 +1,7 @@
 +++
 title = "Mi Primer Post"
 date = "2022-01-04T02:13:16-06:00"
-author = "El señor robot"
+author = "El Señor Robot"
 authorTwitter = "" #do not include @
 cover = ""
 tags = ["", ""]

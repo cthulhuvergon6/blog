@@ -3,12 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://codigonovato.netlify.app/pages/about/</loc>
-    <lastmod>2022-01-04T03:42:18-06:00</lastmod>
+    <loc>https://codigonovato.netlify.app/tags/blog/</loc>
+    <lastmod>2022-01-04T05:09:51-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://codigonovato.netlify.app/</loc>
+    <lastmod>2022-01-04T05:09:51-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/posts/crear-blog-con-hugogithub-y-netlify/</loc>
+    <lastmod>2022-01-04T05:09:51-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/tags/github/</loc>
+    <lastmod>2022-01-04T05:09:51-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/tags/hugo/</loc>
+    <lastmod>2022-01-04T05:09:51-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/tags/linux/</loc>
+    <lastmod>2022-01-04T05:09:51-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/tags/netlify/</loc>
+    <lastmod>2022-01-04T05:09:51-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/posts/</loc>
+    <lastmod>2022-01-04T05:09:51-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/tags/</loc>
+    <lastmod>2022-01-04T05:09:51-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/pages/about/</loc>
     <lastmod>2022-01-04T03:42:18-06:00</lastmod>
   </url>
   
@@ -23,16 +63,7 @@
   </url>
   
   <url>
-    <loc>https://codigonovato.netlify.app/posts/</loc>
-    <lastmod>2022-01-04T02:13:16-06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://codigonovato.netlify.app/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://codigonovato.netlify.app/tags/</loc>
   </url>
   
 </urlset>
