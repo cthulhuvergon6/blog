@@ -13,33 +13,9 @@
       <pubDate>Tue, 04 Jan 2022 03:42:18 -0600</pubDate>
       
       <guid>https://codigonovato.netlify.app/pages/about/</guid>
-      <description>Hola que tal, mi nombre es &amp;ldquo;El Señor Robot&amp;rdquo;, soy un friki de la computación, no son un experto pero realize este pequeño blog con el proposito de transcribir mis notas de programación en python, linux, docker y algo mas para que puedan ser se ayuda para los demás, como dije, no soy un experto, pero tratare de entrar en detalles sobre lo que escriba, soy nuego con sitios hechos en hugo así que tal vez puedan observar uno que otro error en el blog(ortografico, por no decir en todo).</description>
-      <content>&lt;p&gt;Hola que tal, mi nombre es &amp;ldquo;El Señor Robot&amp;rdquo;, soy un friki de la computación,
-no son un experto pero realize este pequeño blog con el proposito de transcribir
-mis notas de programación en python, linux, docker y algo mas para que puedan
-ser se ayuda para los demás, como dije, no soy un experto, pero tratare de entrar en
-detalles sobre lo que escriba, soy nuego con sitios hechos en hugo así que tal vez
-puedan observar uno que otro error en el blog(ortografico, por no decir en todo).&lt;/p&gt;
-&lt;p&gt;esto es algo breve, espero poder ser de ayuda para los demas y acepto retroalimentación
-ya que nunca dejamos de aprender.&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://codigonovato.netlify.app/posts/about/</link>
-      <pubDate>Tue, 04 Jan 2022 03:42:18 -0600</pubDate>
-      
-      <guid>https://codigonovato.netlify.app/posts/about/</guid>
-      <description>Hola que tal, mi nombre es &amp;ldquo;El Señor Robot&amp;rdquo;, soy un friki de la computación, no son un experto pero realize este pequeño blog con el proposito de transcribir mis notas de programación en python, linux, docker y algo mas para que puedan ser se ayuda para los demás, como dije, no soy un experto, pero tratare de entrar en detalles sobre lo que escriba, soy nuego con sitios hechos en hugo así que tal vez puedan observar uno que otro error en el blog(ortografico, por no decir en todo).</description>
-      <content>&lt;p&gt;Hola que tal, mi nombre es &amp;ldquo;El Señor Robot&amp;rdquo;, soy un friki de la computación,
-no son un experto pero realize este pequeño blog con el proposito de transcribir
-mis notas de programación en python, linux, docker y algo mas para que puedan
-ser se ayuda para los demás, como dije, no soy un experto, pero tratare de entrar en
-detalles sobre lo que escriba, soy nuego con sitios hechos en hugo así que tal vez
-puedan observar uno que otro error en el blog(ortografico, por no decir en todo).&lt;/p&gt;
-&lt;p&gt;esto es algo breve, espero poder ser de ayuda para los demas y acepto retroalimentación
-ya que nunca dejamos de aprender.&lt;/p&gt;
+      <description>Hola que tal, mi nombre es &amp;ldquo;El Señor Robot&amp;rdquo;, soy un friki de la computación, no son un experto pero realizó este pequeño blog con el propósito de transcribir mis notas de programación en python, linux, docker y algo mas, con la esperanza de que poder ayudar, como dije, no soy un experto, pero tratare de entrar en detalles sobre lo que escriba, soy nuevo con sitios hechos en HUGO así que tal vez puedan observar uno que otro error en el blog (ortográfico, por no decir en todo).</description>
+      <content>&lt;p&gt;Hola que tal, mi nombre es &lt;strong&gt;&amp;ldquo;El Señor Robot&amp;rdquo;&lt;/strong&gt;, soy un friki de la computación, no son un experto pero realizó este pequeño blog con el propósito de transcribir mis notas de programación en &lt;em&gt;python, linux, docker y algo mas&lt;/em&gt;, con la esperanza de que poder ayudar, como dije, no soy un experto, pero tratare de entrar en detalles sobre lo que escriba, soy nuevo con sitios hechos en &lt;a href=&#34;https://gohugo.io/&#34;&gt;HUGO&lt;/a&gt; así que tal vez puedan observar uno que otro error en el blog (ortográfico, por no decir en todo).&lt;/p&gt;
+&lt;p&gt;Esto fue una presentación algo breve, espero poder ser de ayuda para los demás y acepto retroalimentación. nunca dejamos de aprender.&lt;/p&gt;
 </content>
     </item>
     
