@@ -4,7 +4,7 @@ date = "2022-01-04T05:09:51-06:00"
 author = "El Señor Robot"
 authorTwitter = ""
 cover = ""
-tags = ["blog", "hugo", "github", "netlify", "linux", "ssh"]
+tags = ["blog", "hugo", "github", "netlify", "linux", "ssh", "ubuntu 20.04"]
 keywords = ["netlify", "github", "hugo", "linux", "crear"]
 description = ""
 showFullContent = false
@@ -82,5 +82,25 @@ Proceso:
 Al recargar la pagina deberíamos obtener algo como esto:
 ![copy_](/push_p.png)
 
+Nada mal, ahora hay que dirigirnos a [Netlify](netlify.com) y darle acceso a nuestra cuenta de github, si no hubo problema alguno nos vamos a la sección de site:
+![sites_op](/op_site.png)
 
+Seleccionamos `import from git`, a continuación todos los pasos:
+![ops](/op1.png)
 
+Aquí seleccionamos el repositorio que contiene nuestro blog.
+![ops](/op2.png)
+
+Dejamos todo como esta por defecto y damos en Deploy site.
+![ops](/op3.png)
+
+Tomara un par de segundos y el sitio estará listo.
+![ops](/op4.png)
+
+Si el nombre no es lo suficientemente amigable o no te gusta la puedes cambiar, debajo de la url selecciona *Site settings* y podrás ver la opción de *Change name site*.
+![ops](/op5.png)
+
+Una vez que hayas hecho el cambio de nombre para tu sitio, me gustaría retomar un punto importante, recuerdas que en el archivo config.toml habia una url?, bueno, es momento de cambiarla por la nueva url de tu sitio en netlify, hecho esto hay que volver a hacer un `hugo -D`, `git add .`, `git commit -m “update”`  y `git push -u origin master`, listo, ya tienes tu blog en linea.
+![my-blog](/pageok.png)
+
+Por si te lo preguntabas, cada que hagas un nuevo cambio tienes que ejecutar los pasos anteriores, por netlify no te preocupes, basta que cargues tus cambios a github y netlify hace todo lo demás.
