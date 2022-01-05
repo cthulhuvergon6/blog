@@ -62,3 +62,25 @@ Proceso para generar los archivos estáticos y levantar el servicio en local:
 
 Resultado: 
 ![configtoml](/sitio_de_prueba.png "Contenido del archivo")
+
+"*Que tal, eh!?, ahora corre con tu “novi@” y con toda la familia para mostrarles tu creación y para lanzarte de lleno a todas esas ofertas laborales, ya eres todo un taquero programador master races 60k.
+Ey, no tan rápido, aun nos falta cargar nuestro proyecto a github, hacer nuestro primer git push y desplegarlo con netlify."*
+
+Como ya se supone debimos haber hecho un `git init` pasaremos a lo siguiente y si no lo has hecho aun lo puedes realizar ahora mismo (recuerda que todo eso se hará dentro del directorio principal, en mi caso dentro de my-blog), después iremos a nuestra cuenta de github y crearemos un nuevo repositorio:
+
+Nuevo repo:
+![repo_](/new_repo.png "creación del repositorio")
+
+Nos deberá mostrar algo como esto:
+![copy_](/repo_conf.png)
+
+en mi caso me da la opción con *ssh* porque yo añadí una llave para enlazar mi cuenta sin la necesidad de escribir a cada momento mi user y pass (eso también lo veremos en otro post), copiado el enlace haremos lo siguiente: un `git add .`  (no olvides el punto al final), `git remote add origin git@github.com:cthulhuvergon6/mi-primer-blog.git`, `git commit -m “mi primer blog”` y `git push -u origin` master.
+
+Proceso:
+[![asciicast](https://asciinema.org/a/s6JSOszJ0I7Z9enqjykGyBjGJ.svg)](https://asciinema.org/a/s6JSOszJ0I7Z9enqjykGyBjGJ)
+
+Al recargar la pagina deberíamos obtener algo como esto:
+![copy_](/push_p.png)
+
+
+

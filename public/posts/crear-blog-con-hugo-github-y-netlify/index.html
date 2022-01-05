@@ -158,7 +158,7 @@ El proceso lo realice en mi servidor de escritorio (carisimo), es un equipo muy 
 <p>El proceso lo realice en mi servidor de escritorio (carisimo), es un equipo muy básico como del 2000 que me ayuda para este tipo de proyectos (es mi todo terreno), el equipo no cuenta con monitor por lo cual recurriremos a una poderosa herramienta <a href="https://es.wikipedia.org/wiki/Secure_Shell">ssh</a>, pero no te preocupes, el proceso es idéntico si lo realizas desde tu equipo local (osea, el que estas usando en este momento).</p>
 <p>Pongamos manos a la obra (la carne al asador, por eso de los amigos regios), comencemos con una introducción básica sobre las herramientas que utilizaremos.</p>
 <p>En primer lugar tenemos a <strong>Hugo</strong>: Es un framework para la creación de sitios estáticos de propósito general, el cual esta basado en la arquitectura JAMstack, en pocas palabras podrás generar un sitio web estático que solo es alimentado por texto, imágenes, archivos .css y javascript, pero no por eso deja de ser potente o poco visual, al contrario.</p>
-<p><strong>Github</strong>: es una plataforma para almacenar tu codigo en la “nube”, github utiliza el control de versiones <em>git</em>, con lo cual una vez registrado en la plataforma podrás cargar tu contenido y llevar un control de todo el código, además de poder tenerlo en cualquier equipo y compartirlo con los demás.</p>
+<p><strong>Github</strong>: es una plataforma para almacenar tu código en la “nube”, github utiliza el control de versiones <em><a href="https://git-scm.com/">git</a></em>, con lo cual una vez registrado en la plataforma podrás cargar tu contenido y llevar un control de todo el código, además de poder tenerlo en cualquier equipo y compartirlo con los demás.</p>
 <p><strong>Netlify</strong>: es una plataforma que nos va a permitir automatizar nuestros proyectos web estáticos, cuando nosotros carguemos el contenido a github, netlify se encargara de las tareas de integración y despliegue, dándonos como resultado un sitio web en linea, la plataforma cuenta con un plan gratuito el cual permite cargar solo un sitio y una url como la siguiente mi-sitio.netlify.app, pero nos otorga sitios HTTPS de manera gratuita por lo cual nos podremos evitar el generar certificados. Ya con esto evadimos muchos problemas como lo son de, disponer de un host, un dominio web, publicar nuestra web desde un equipo que se encuentra detras de NAT y tener que estar generando certificados, aunque let’s encrypt ayuda mucho en estos casos.</p>
 <p>Si, lo se, ya me extendí, <em>&ldquo;pero si venia a ver como crear mi sitio web gratis y mostrarle a mi novi@ mi primer post con un <strong>hola, mundo!</strong>&quot;</em>, no te mientas por favor, además, ¿quien se va a tomar todo este tiempo para explicarte casi con lujo de detalle? (si, con uno que otro dato un poco errado), bien, continuemos.</p>
 <p>Por ultimo pero no menos importante <strong>SSH</strong>: secure shell, es una herramienta que permite acceder a un servidor mediante un canal seguro, el cual se encarga de cifrar la conexión haciéndola invisible para cualquier fisgón, no solo te permite conectarte a un servidor, son muchas más, las cuales dejaremos para otro post.</p>
@@ -180,6 +180,18 @@ El proceso lo realice en mi servidor de escritorio (carisimo), es un equipo muy 
 <p><a href="https://asciinema.org/a/4HlRuLHLhRgcTK1oVOMwm8YNA"><img src="https://asciinema.org/a/4HlRuLHLhRgcTK1oVOMwm8YNA.svg" alt="asciicast"></a></p>
 <p>Resultado:
 <img src="/sitio_de_prueba.png" alt="configtoml" title="Contenido del archivo"></p>
+<p>&ldquo;<em>Que tal, eh!?, ahora corre con tu “novi@” y con toda la familia para mostrarles tu creación y para lanzarte de lleno a todas esas ofertas laborales, ya eres todo un taquero programador master races 60k.
+Ey, no tan rápido, aun nos falta cargar nuestro proyecto a github, hacer nuestro primer git push y desplegarlo con netlify.&quot;</em></p>
+<p>Como ya se supone debimos haber hecho un <code>git init</code> pasaremos a lo siguiente y si no lo has hecho aun lo puedes realizar ahora mismo (recuerda que todo eso se hará dentro del directorio principal, en mi caso dentro de my-blog), después iremos a nuestra cuenta de github y crearemos un nuevo repositorio:</p>
+<p>Nuevo repo:
+<img src="/new_repo.png" alt="repo_" title="creación del repositorio"></p>
+<p>Nos deberá mostrar algo como esto:
+<img src="/repo_conf.png" alt="copy_"></p>
+<p>en mi caso me da la opción con <em>ssh</em> porque yo añadí una llave para enlazar mi cuenta sin la necesidad de escribir a cada momento mi user y pass (eso también lo veremos en otro post), copiado el enlace haremos lo siguiente: un <code>git add .</code>  (no olvides el punto al final), <code>git remote add origin git@github.com:cthulhuvergon6/mi-primer-blog.git</code>, <code>git commit -m “mi primer blog”</code> y <code>git push -u origin</code> master.</p>
+<p>Proceso:
+<a href="https://asciinema.org/a/s6JSOszJ0I7Z9enqjykGyBjGJ"><img src="https://asciinema.org/a/s6JSOszJ0I7Z9enqjykGyBjGJ.svg" alt="asciicast"></a></p>
+<p>Al recargar la pagina deberíamos obtener algo como esto:
+<img src="/push_p.png" alt="copy_"></p>
 
       </div></div>
 
