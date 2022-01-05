@@ -104,6 +104,3 @@ Una vez que hayas hecho el cambio de nombre para tu sitio, me gustaría retomar 
 ![my-blog](/pageok.png)
 
 Por si te lo preguntabas, cada que hagas un nuevo cambio tienes que ejecutar los pasos anteriores, por netlify no te preocupes, basta que cargues tus cambios a github y netlify hace todo lo demás.
-
-
-![my-blog](/pageok.png)
