@@ -1,26 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on Codigo novato</title>
+    <title>Pages on Código Novato</title>
+    
+    
+    
     <link>https://codigonovato.netlify.app/pages/</link>
-    <description>Recent content in Pages on Codigo novato</description>
+    <description>Recent content in Pages on Código Novato</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Jan 2022 03:42:18 -0600</lastBuildDate><atom:link href="https://codigonovato.netlify.app/pages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jan 2022 03:42:18 -0600</lastBuildDate>
+    
+	<atom:link href="https://codigonovato.netlify.app/pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>About</title>
       <link>https://codigonovato.netlify.app/pages/about/</link>
       <pubDate>Tue, 04 Jan 2022 03:42:18 -0600</pubDate>
       
       <guid>https://codigonovato.netlify.app/pages/about/</guid>
-      <description>Hola que tal, mi nombre es &amp;ldquo;El Señor Robot&amp;rdquo;, soy un friki de la computación, no son un experto pero realizó este pequeño blog con el propósito de transcribir mis notas de programación en python, linux, docker y algo mas, con la esperanza de que poder ayudar, como dije, no soy un experto, pero tratare de entrar en detalles sobre lo que escriba, soy nuevo con sitios hechos en HUGO así que tal vez puedan observar uno que otro error en el blog (ortográfico, por no decir en todo), tratare de hacer el blog lo más amigable posible, incluso podria decir, salir de lo cotidiano para hacerte sentir como si estuvieras con un amig@.</description>
-      <content>&lt;p&gt;Hola que tal, mi nombre es &lt;strong&gt;&amp;ldquo;El Señor Robot&amp;rdquo;&lt;/strong&gt;, soy un friki de la computación, no son un experto pero realizó este pequeño blog con el propósito de transcribir mis notas de programación en &lt;em&gt;python, linux, docker y algo mas&lt;/em&gt;, con la esperanza de que poder ayudar, como dije, no soy un experto, pero tratare de entrar en detalles sobre lo que escriba, soy nuevo con sitios hechos en &lt;a href=&#34;https://gohugo.io/&#34;&gt;HUGO&lt;/a&gt; así que tal vez puedan observar uno que otro error en el blog (ortográfico, por no decir en todo), tratare
-de hacer el blog lo más amigable posible, incluso podria decir, salir de lo cotidiano para hacerte sentir como si estuvieras con un amig@.&lt;/p&gt;
-&lt;p&gt;Esto fue una presentación algo breve, espero poder ser de ayuda para los demás y acepto retroalimentación.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Nunca dejes de aprender.&lt;/p&gt;
-&lt;/blockquote&gt;
-</content>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Hola que tal, mi nombre es &amp;ldquo;El Señor Robot&amp;rdquo;, soy un friki de la computación, no son un experto pero realizó este pequeño blog con el propósito de transcribir mis notas de programación en python, linux, docker y algo mas, con la esperanza de que poder ayudar, como dije, no soy un experto, pero tratare de entrar en detalles sobre lo que escriba, soy nuevo con sitios hechos en HUGO así que tal vez puedan observar uno que otro error en el blog (ortográfico, por no decir en todo), tratare de hacer el blog lo más amigable posible, incluso podria decir, salir de lo cotidiano para hacerte sentir como si estuvieras con un amig@.
+          
+        
+        </description>
     </item>
     
   </channel>

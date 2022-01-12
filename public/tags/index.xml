@@ -1,20 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Codigo novato</title>
+    <title>Tags on Código Novato</title>
+    
+    
+    
     <link>https://codigonovato.netlify.app/tags/</link>
-    <description>Recent content in Tags on Codigo novato</description>
+    <description>Recent content in Tags on Código Novato</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Jan 2022 05:09:51 -0600</lastBuildDate><atom:link href="https://codigonovato.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jan 2022 05:09:51 -0600</lastBuildDate>
+    
+	<atom:link href="https://codigonovato.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>blog</title>
       <link>https://codigonovato.netlify.app/tags/blog/</link>
       <pubDate>Tue, 04 Jan 2022 05:09:51 -0600</pubDate>
       
       <guid>https://codigonovato.netlify.app/tags/blog/</guid>
-      <description></description>
-      <content></content>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
     </item>
     
     <item>
@@ -23,8 +40,18 @@
       <pubDate>Tue, 04 Jan 2022 05:09:51 -0600</pubDate>
       
       <guid>https://codigonovato.netlify.app/tags/github/</guid>
-      <description></description>
-      <content></content>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
     </item>
     
     <item>
@@ -33,8 +60,18 @@
       <pubDate>Tue, 04 Jan 2022 05:09:51 -0600</pubDate>
       
       <guid>https://codigonovato.netlify.app/tags/hugo/</guid>
-      <description></description>
-      <content></content>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
     </item>
     
     <item>
@@ -43,8 +80,18 @@
       <pubDate>Tue, 04 Jan 2022 05:09:51 -0600</pubDate>
       
       <guid>https://codigonovato.netlify.app/tags/linux/</guid>
-      <description></description>
-      <content></content>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
     </item>
     
     <item>
@@ -53,8 +100,18 @@
       <pubDate>Tue, 04 Jan 2022 05:09:51 -0600</pubDate>
       
       <guid>https://codigonovato.netlify.app/tags/netlify/</guid>
-      <description></description>
-      <content></content>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
     </item>
     
     <item>
@@ -63,8 +120,38 @@
       <pubDate>Tue, 04 Jan 2022 05:09:51 -0600</pubDate>
       
       <guid>https://codigonovato.netlify.app/tags/ssh/</guid>
-      <description></description>
-      <content></content>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>ubuntu 20.04</title>
+      <link>https://codigonovato.netlify.app/tags/ubuntu-20.04/</link>
+      <pubDate>Tue, 04 Jan 2022 05:09:51 -0600</pubDate>
+      
+      <guid>https://codigonovato.netlify.app/tags/ubuntu-20.04/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
     </item>
     
   </channel>

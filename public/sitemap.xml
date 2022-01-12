@@ -8,12 +8,12 @@
   </url>
   
   <url>
-    <loc>https://codigonovato.netlify.app/</loc>
+    <loc>https://codigonovato.netlify.app/posts/crear-blog-con-hugo-github-y-netlify/</loc>
     <lastmod>2022-01-04T05:09:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://codigonovato.netlify.app/posts/crear-blog-con-hugo-github-y-netlify/</loc>
+    <loc>https://codigonovato.netlify.app/</loc>
     <lastmod>2022-01-04T05:09:51-06:00</lastmod>
   </url>
   
@@ -49,6 +49,11 @@
   
   <url>
     <loc>https://codigonovato.netlify.app/tags/</loc>
+    <lastmod>2022-01-04T05:09:51-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/tags/ubuntu-20.04/</loc>
     <lastmod>2022-01-04T05:09:51-06:00</lastmod>
   </url>
   

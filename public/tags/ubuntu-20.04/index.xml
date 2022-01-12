@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ssh on Código Novato</title>
+    <title>ubuntu 20.04 on Código Novato</title>
     
     
     
-    <link>https://codigonovato.netlify.app/tags/ssh/</link>
-    <description>Recent content in ssh on Código Novato</description>
+    <link>https://codigonovato.netlify.app/tags/ubuntu-20.04/</link>
+    <description>Recent content in ubuntu 20.04 on Código Novato</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Jan 2022 05:09:51 -0600</lastBuildDate>
     
-	<atom:link href="https://codigonovato.netlify.app/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://codigonovato.netlify.app/tags/ubuntu-20.04/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
