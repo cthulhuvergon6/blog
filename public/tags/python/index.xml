@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Código Novato</title>
+    
+    
+    
+    <link>https://codigonovato.netlify.app/tags/python/</link>
+    <description>Recent content in python on Código Novato</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Jan 2022 13:04:01 -0600</lastBuildDate>
+    
+	<atom:link href="https://codigonovato.netlify.app/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python 01 Sintax</title>
+      <link>https://codigonovato.netlify.app/posts/python-01-sintax/</link>
+      <pubDate>Wed, 12 Jan 2022 13:04:01 -0600</pubDate>
+      
+      <guid>https://codigonovato.netlify.app/posts/python-01-sintax/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Python 01 - Syntax. Que tal, este es uno de los primeros post para el tutorial de Python, los cuales los podras encontrar como post individuales y tambien lo colocares en Menu para que los puedas tener todos de manera accesible sin tener que buscar.
+Un poco de Python : Fue creado por Guido van Rossum y lo publico por primera vez el 20 de febrero de 1991,la version actual de python es 3.
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

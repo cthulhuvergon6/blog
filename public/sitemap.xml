@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://codigonovato.netlify.app/tags/blog/</loc>
+    <loc>https://codigonovato.netlify.app/tags/01/</loc>
     <lastmod>2022-01-12T13:04:01-06:00</lastmod>
   </url>
   
@@ -13,22 +13,12 @@
   </url>
   
   <url>
-    <loc>https://codigonovato.netlify.app/tags/github/</loc>
+    <loc>https://codigonovato.netlify.app/tags/pep8/</loc>
     <lastmod>2022-01-12T13:04:01-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://codigonovato.netlify.app/tags/hugo/</loc>
-    <lastmod>2022-01-12T13:04:01-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://codigonovato.netlify.app/tags/linux/</loc>
-    <lastmod>2022-01-12T13:04:01-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://codigonovato.netlify.app/tags/netlify/</loc>
+    <loc>https://codigonovato.netlify.app/tags/post-semanal/</loc>
     <lastmod>2022-01-12T13:04:01-06:00</lastmod>
   </url>
   
@@ -38,12 +28,17 @@
   </url>
   
   <url>
+    <loc>https://codigonovato.netlify.app/tags/python/</loc>
+    <lastmod>2022-01-12T13:04:01-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://codigonovato.netlify.app/posts/python-01-sintax/</loc>
     <lastmod>2022-01-12T13:04:01-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://codigonovato.netlify.app/tags/ssh/</loc>
+    <loc>https://codigonovato.netlify.app/tags/syntax/</loc>
     <lastmod>2022-01-12T13:04:01-06:00</lastmod>
   </url>
   
@@ -53,12 +48,42 @@
   </url>
   
   <url>
-    <loc>https://codigonovato.netlify.app/tags/ubuntu-20.04/</loc>
-    <lastmod>2022-01-12T13:04:01-06:00</lastmod>
+    <loc>https://codigonovato.netlify.app/tags/blog/</loc>
+    <lastmod>2022-01-04T05:09:51-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://codigonovato.netlify.app/posts/crear-blog-con-hugo-github-y-netlify/</loc>
+    <lastmod>2022-01-04T05:09:51-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/tags/github/</loc>
+    <lastmod>2022-01-04T05:09:51-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/tags/hugo/</loc>
+    <lastmod>2022-01-04T05:09:51-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/tags/linux/</loc>
+    <lastmod>2022-01-04T05:09:51-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/tags/netlify/</loc>
+    <lastmod>2022-01-04T05:09:51-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/tags/ssh/</loc>
+    <lastmod>2022-01-04T05:09:51-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codigonovato.netlify.app/tags/ubuntu-20.04/</loc>
     <lastmod>2022-01-04T05:09:51-06:00</lastmod>
   </url>
   
