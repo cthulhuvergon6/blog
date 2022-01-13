@@ -77,10 +77,10 @@ import csv
 
 with open(file, 'r') as f:
 	reader = csv.reader(f)
-	registros = [n for n in reader]
-
-	if registros[5] not in 'este valor':
-		print(registros)
+    
+    for registros in reader:
+        if registros[5] not in 'este valor':
+            print(registros)
 ```
 
 Como puedes ver,primero importamos el modulo, abrimos un archivo y después dejamos una linea en blanco para separar el código y realizar uno paso condicional, al fin de cuentas estamos realizando una acción concreta pero el dividir el código lo hace mas simple y lógico a simple vista.
