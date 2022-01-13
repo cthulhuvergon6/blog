@@ -198,7 +198,7 @@ with open(r'/file/dir_other_file/dir1/dir_dir_dir/file_file.csv', 'r') as file,\
 ```
 
 ## Palabras reservadas en Python.
-Las palabras reservadas como su nobre lo dice, están reservadas para ser usadas solo por python y se pide que jamas se utilicen para nombrar o asignar variables. Podemos ver todas las palabras reservadas de la siguiente forma:
+Las palabras reservadas como su nombre lo dice, están reservadas para ser usadas solo por python y se pide que jamas se utilicen para nombrar o asignar variables. Podemos ver todas las palabras reservadas de la siguiente forma:
 ```python
 import keyword
 
@@ -285,7 +285,7 @@ comentario de varias lineas
 para documentar o añadir ayuda a los programadores externos
 """
 
-def prueba(a:int, b:float) -> int:
+def prueba(a: int, b: int) -> int:
 	""""Función que recibe 2 argumentos de tipo entero"""
 	pass
     
