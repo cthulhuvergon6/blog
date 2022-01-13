@@ -9,17 +9,17 @@
     <description>Recent content on Código Novato</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jan 2022 06:16:02 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 13 Jan 2022 06:50:24 -0600</lastBuildDate>
     
 	<atom:link href="https://codigonovato.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Test</title>
-      <link>https://codigonovato.netlify.app/posts/test/</link>
-      <pubDate>Thu, 13 Jan 2022 06:16:02 -0600</pubDate>
+      <title>Python</title>
+      <link>https://codigonovato.netlify.app/pages/python/</link>
+      <pubDate>Thu, 13 Jan 2022 06:50:24 -0600</pubDate>
       
-      <guid>https://codigonovato.netlify.app/posts/test/</guid>
+      <guid>https://codigonovato.netlify.app/pages/python/</guid>
       <description>
         
           
@@ -28,28 +28,29 @@
         
         
         
-          esto es otra prueba
+          Aquí podrás encontrar todos los post sobre Python junto al repositorio con algunos ejemplos, en formato .ipynb para jupyter y los tradicionales .py.
+[Dame un poco de tiempo, ya que, primero realizo el post y después el repo]
+   Post Respo     Python-01-Syntax github    
           
         
         </description>
     </item>
     
     <item>
-      <title>Python 01 Sintax</title>
-      <link>https://codigonovato.netlify.app/posts/python-01-sintax/</link>
-      <pubDate>Wed, 12 Jan 2022 13:04:01 -0600</pubDate>
+      <title>Python 01 Syntax</title>
+      <link>https://codigonovato.netlify.app/posts/python-01-syntax/</link>
+      <pubDate>Thu, 13 Jan 2022 06:21:39 -0600</pubDate>
       
-      <guid>https://codigonovato.netlify.app/posts/python-01-sintax/</guid>
+      <guid>https://codigonovato.netlify.app/posts/python-01-syntax/</guid>
       <description>
         
-          
-          
+          &lt;img src=&#34;https://codigonovato.netlify.app/cover01.png&#34;/&gt;
           
         
         
         
-          Python 01 - Syntax. Que tal, este es uno de los primeros post para el tutorial de Python, los cuales los podras encontrar como post individuales y tambien lo colocares en Menu para que los puedas tener todos de manera accesible sin tener que buscar.
-Un poco de Python : Fue creado por Guido van Rossum y lo publico por primera vez el 20 de febrero de 1991,la version actual de python es 3.
+          Python 01 - Syntax. Que tal, este es uno de los primeros post para el tutorial de Python, los cuales los podrás encontrar como post individuales y también lo colocares en Menú para que los puedas tener todos de manera accesible sin tener que buscar.
+Un poco de Python : Fue creado por Guido van Rossum y lo publico por primera vez el 20 de febrero de 1991, la versión actual de python es 3.
           
         
         </description>

@@ -59,4 +59,4 @@ paginate = 5
       [[languages.en.menu.main]]
         identifier = "python"
         name = "Python"
-        url = "/showcase"
+        url = "/pages/python"

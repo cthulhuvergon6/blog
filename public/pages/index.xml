@@ -9,10 +9,32 @@
     <description>Recent content in Pages on Código Novato</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Jan 2022 03:42:18 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 13 Jan 2022 06:50:24 -0600</lastBuildDate>
     
 	<atom:link href="https://codigonovato.netlify.app/pages/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python</title>
+      <link>https://codigonovato.netlify.app/pages/python/</link>
+      <pubDate>Thu, 13 Jan 2022 06:50:24 -0600</pubDate>
+      
+      <guid>https://codigonovato.netlify.app/pages/python/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Aquí podrás encontrar todos los post sobre Python junto al repositorio con algunos ejemplos, en formato .ipynb para jupyter y los tradicionales .py.
+[Dame un poco de tiempo, ya que, primero realizo el post y después el repo]
+   Post Respo     Python-01-Syntax github    
+          
+        
+        </description>
+    </item>
     
     <item>
       <title>About</title>
