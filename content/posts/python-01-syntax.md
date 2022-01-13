@@ -14,7 +14,7 @@ draft: false
 
 ## Python 01 - Syntax.
 
-Que tal, este es uno de los primeros post para el tutorial de Python, los cuales los podrás encontrar como post individuales y también lo colocares en [Menú](/pages/python) para que los puedas tener todos de manera accesible sin tener que buscar.
+Que tal, este es uno de los primeros post para el tutorial de Python, los cuales los podrás encontrar como post individuales y también lo colocare en [Menú](/pages/python) para que los puedas tener todos de manera accesible sin tener que buscar.
 
 Un poco de Python :
 Fue creado por Guido van Rossum y lo publico por primera vez el 20 de febrero de 1991, la versión actual de python es 3.9 y el lenguaje es usado en muchos ámbitos como:
