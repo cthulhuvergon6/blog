@@ -4,11 +4,7 @@ date: 2022-01-12T13:04:01-06:00
 draft: true
 author : "El Señor Robot"
 cover : ""
-tags : ["python", "01", "syntax", "PEP8", "post-semanal"]
-keywords : ["python syntax", "pep8"]
-description : ""
-showFullContent : false
-readingTime : true
+
 ---
 
 ## Python 01 - Syntax.
@@ -35,7 +31,7 @@ El usar lineas en blanco puede ayudar a tener un cógio mas legible ya que tener
 - **Dejar una linea en blanco entre cada metodo de instancia**: para que sea mas claro, los metodos de instacia son las funciones `def` dentro de una clase.
 - **Dejar una linea en blanco para agrupar pasos similares**: si estamos escribiendo codigo de un proceso en especifico podemos delimitar ciertos pasos con una linea en blanco.
 
-```
+```python
 class Ejemplo1:
     def prueba1():
         pass
@@ -54,7 +50,7 @@ class Ejemplo2:
 ```
 
 Como puedes observar en este ejemplo, hay 2 lineas en blanco entre cada clase `class` pero las funciones `def` solo uno. Si las funciones estan así, si deben de llevar doble linea en blanco:
-```
+```python
 def fuera1():
 	pass
 
@@ -71,7 +67,7 @@ Siempre en cualquier archivo python debe colocarse una linea en blanco al final,
 
 ## Separar con una linea fragmentos de codigo.
 Supongamos que estamos trabajando con un archivo y despues realizamos otra operacion sobre el mismo archivo, podriamos hacer algo así:
-```
+```python
 import csv
 
 with open(file, 'r') as f:
@@ -88,7 +84,7 @@ Como puedes ver, abrimos un archivo y despues dejamos una linea en blanco para s
 PEP8 no ayuda a saber donde y como utilizar los espacion al momento de declarar variables o usar operadores dentro de nustro codigo.
 
 Usar espacion al realizar asignaciones o declarar variables:
-```
+```python
 # uso correcto
 x = 5
 
@@ -97,7 +93,7 @@ x=5
 ```
 
 En funciones con argumentos por defecto, no se deben dejar espacio, tampoco debe haber espacio dentro del parentesis a menos que sea para separar argumentos:
-```
+```python
 def funcion(phone=3):
 	pass
 
@@ -108,7 +104,7 @@ def funcion2(argumento1, argumento2):
 *[si, si, se que deje solo un espacion entre cada funcion, cuando deberian de ser 2, es intencional, para que con la practica no solo analizes tu codigo, sino tambien el de los demas.]*
 
 Agrupacion por orden de ejecucion:
-```
+```python
 if n > 0 and n % 2 == 0:
 	print(n)
 
@@ -118,20 +114,20 @@ if n>0 and n%2==0:
 ```
 
 Puedes usar los 2 ejemplos de arriba pero evita combinarlos de la siguiente manera:
-```
+```python
 if n>0 and n % 2 == 0:
 	print(n)
 
 ```
 
 Los espacion en blanco no se deben usar en listas, diccionarios, tuplas o sets, solo si es para dividir elementos:
-```
+```python
 lista = [1, 2, 3]
 diccionario = {"nombre": "eliot", "edad": 33}
 ```
 
 Otro punto importe, es no tatar de alinear las variables al declararlas:
-```
+```python
 # correcto
 uno = 10
 otro_var = 33
@@ -143,7 +139,7 @@ otro_var = 33
 
 ## Identación del código.
 tal vez hayas notado que python no utiliza llaves {} en cada bloque de codigo como por ejemplo **C++**:
-```
+```c++
 #include <iostream>
  
 int main () 
@@ -154,13 +150,13 @@ int main ()
 ```
 
 En su lugar usa la indentacion, indica un determinado bloque de codigo, el cual se representa usando 4 espacios o tabulador, hay que tener cuidado con este ultimo, primero porque python recomienda 4 espacio y si llegaramos a usar un tab en otro editor de texto, este pude usar un numero de tabulacion diferente. Supongoamos que usamos un tabulador de 6 y se nos ocurre solo borrar 2 espacios para dejarlo en 4, python puede marcar error, de igual manera evita convinar espacion y tabulador, si el editor lo permite, configura el tabulador en 4 o de lo contrario utiliza 4 espacio.
-```
+```python
 for i in range(34):
 	print(i)
 ```
 
 Identar lineas de codigo muy largas para evitar mas de 79 caracteres:
-```
+```python
 def identar_linea(argumento1, argumento2, argumento3,
 				  argumento4, argumento5):
 	pass
@@ -181,7 +177,7 @@ Realmente no sucede nada si no identas lineas muy largas como una lista o argume
 ## Tamaño de las lineas.
 Es recomendable limitar el tamaño de las lineas a 79 caracteres, por otro lado para los *docstring* y comentarios usar 72 caracteres.
 
-```
+```python
 # para romper una linea que no sea posible dividir puedes usar \
 
 import csv
@@ -198,7 +194,7 @@ with open(r'/file/dir_other_file/dir1/dir_dir_dir/file_file.csv', 'r') as file,\
 
 ## Palabras reservadas en Python.
 Las palabras reservadas como su nobre lo dice, estan reservadas para ser usadas solo por python y se pide que jamas se utilizen para nombrar o asignar variables. Podemos ver todas la s palabras reservadas de la siguiente forma:
-```
+```python
 import keyword
 
 for palabras_reservadas in keyword.kwlist:
@@ -216,7 +212,7 @@ break      except     in         raise
 lo puedes escribir en el IDLE de python si te encuentras en windows y presionar `F5` o crear un archivo .py.
 
 Para nombrar variables evita hacerlo con espacios y en su lugar usa `_`:
-```
+```python
 # Algunos ejemplos de como nombrar variables
 
 esto_es_una_variable
@@ -239,7 +235,7 @@ class EmpleadosTi:
 Los nombres de los modulos (tus archivos python) deben nombrarse asi `mimodulo.py` o `mi_modulo.py`. 
 
 Para importar modulos, deben de importarse uno por linea si es que son modulos difertes:
-```
+```python
 # correcto
 import csv
 import time
@@ -263,7 +259,7 @@ from Collections import Counter
 
 ## Comentarios.
 Los comentarios son una forma de realizar anotacones o describir nuestro codigo para darle seguimiento y que los demas puedan saber de que se trata el codigo, para esto tenemos 2 formas de hacerlo:
-```
+```python
 # comentario de una sola linea
 # aunque puede sañadir otra linea colocando una almoadilla
 
@@ -276,7 +272,7 @@ con esto puedes domunetar una area de codigo que requiera cierto nivel de explic
 
 No hay que confundir los comentarios con los *docstring*, un comentario se utiliza para aumentar la legibilida, compresion del codigo y solo son visibles o accesibles desde dentro del codigo, mientras que, un *docstring* es muy similar a un comentario, pues utiliza triple comilla doble `"`, pero este es de gran ayuda en clases y funciones, ya que permiten añadir una descripcion de que hace o como funciona cada objeto.
 
-```
+```python
 # esto es un comentario de una sola linea
 
 """

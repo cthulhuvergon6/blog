@@ -16,7 +16,7 @@ Un poco de Python : Fue creado por Guido van Rossum y lo publico por primera vez
 />
 <meta
   name="keywords"
-  content="python syntax, pep8"
+  content=""
 />
 <meta name="robots" content="noodp" />
 <link rel="canonical" href="https://codigonovato.netlify.app/posts/python-01-sintax/" />
@@ -176,20 +176,6 @@ Un poco de Python : Fue creado por Guido van Rossum y lo publico por primera vez
     </div>
 
     
-      <span class="post-tags">
-        
-          <a href="https://codigonovato.netlify.app/tags/python/">#python</a>&nbsp;
-        
-          <a href="https://codigonovato.netlify.app/tags/01/">#01</a>&nbsp;
-        
-          <a href="https://codigonovato.netlify.app/tags/syntax/">#syntax</a>&nbsp;
-        
-          <a href="https://codigonovato.netlify.app/tags/pep8/">#PEP8</a>&nbsp;
-        
-          <a href="https://codigonovato.netlify.app/tags/post-semanal/">#post-semanal</a>&nbsp;
-        
-      </span>
-    
 
     
 
@@ -216,205 +202,205 @@ Fue creado por Guido van Rossum y lo publico por primera vez el 20 de febrero de
 <li><strong>Dejar una linea en blanco entre cada metodo de instancia</strong>: para que sea mas claro, los metodos de instacia son las funciones <code>def</code> dentro de una clase.</li>
 <li><strong>Dejar una linea en blanco para agrupar pasos similares</strong>: si estamos escribiendo codigo de un proceso en especifico podemos delimitar ciertos pasos con una linea en blanco.</li>
 </ul>
-<pre><code>class Ejemplo1:
-    def prueba1():
-        pass
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Ejemplo1</span>:
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">prueba1</span>():
+        <span style="color:#66d9ef">pass</span>
 
-    def prueba2():
-    	pass
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">prueba2</span>():
+    	<span style="color:#66d9ef">pass</span>
 
 
-class Ejemplo2:
-	def test1():
-		pass
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Ejemplo2</span>:
+	<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">test1</span>():
+		<span style="color:#66d9ef">pass</span>
 
-	def test2():
+	<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">test2</span>():
 		passs
 
-</code></pre><p>Como puedes observar en este ejemplo, hay 2 lineas en blanco entre cada clase <code>class</code> pero las funciones <code>def</code> solo uno. Si las funciones estan así, si deben de llevar doble linea en blanco:</p>
-<pre><code>def fuera1():
-	pass
+</code></pre></div><p>Como puedes observar en este ejemplo, hay 2 lineas en blanco entre cada clase <code>class</code> pero las funciones <code>def</code> solo uno. Si las funciones estan así, si deben de llevar doble linea en blanco:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">fuera1</span>():
+	<span style="color:#66d9ef">pass</span>
 
 
-def fuera2():
-	pass
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">fuera2</span>():
+	<span style="color:#66d9ef">pass</span>
 
-</code></pre><hr>
+</code></pre></div><hr>
 <h2 id="siempre-en-cualquier-archivo-python-debe-colocarse-una-linea-en-blanco-al-final-de-hecho-te-recomendaria-que-si-estas-en-algun-edito-de-texto-como-vscode-o-sublime-text-e-instalaste-el-paquete-autopep8-hagas-la-prueba-y-veas-como-ajusta-tu-codigo-segun-la-guia-pep8-recuerda-usar-la-combinacion-ctrl--shift--8-para-ver-el-resultado-directamene-en-el-archivo"><strong>NOTA</strong>
 Siempre en cualquier archivo python debe colocarse una linea en blanco al final, de hecho te recomendaria que si estas en algun edito de texto como vscode o sublime text e instalaste el paquete <strong>AUTOPEP8</strong>, hagas la prueba y veas como ajusta tu codigo segun la guia <strong>PEP8</strong>, recuerda usar la combinacion <code>ctrl + shift + 8</code> para ver el resultado directamene en el archivo.</h2>
 <h2 id="separar-con-una-linea-fragmentos-de-codigo">Separar con una linea fragmentos de codigo.</h2>
 <p>Supongamos que estamos trabajando con un archivo y despues realizamos otra operacion sobre el mismo archivo, podriamos hacer algo así:</p>
-<pre><code>import csv
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> csv
 
-with open(file, 'r') as f:
-	reader = csv.reader(f)
-	registros = [n for n in reader]
+<span style="color:#66d9ef">with</span> open(file, <span style="color:#e6db74">&#39;r&#39;</span>) <span style="color:#66d9ef">as</span> f:
+	reader <span style="color:#f92672">=</span> csv<span style="color:#f92672">.</span>reader(f)
+	registros <span style="color:#f92672">=</span> [n <span style="color:#66d9ef">for</span> n <span style="color:#f92672">in</span> reader]
 
-	if registros[5] not in 'este valor':
-		print(registros)
-</code></pre><p>Como puedes ver, abrimos un archivo y despues dejamos una linea en blanco para separar el codigo y realizar uno paso condicional, al fin de cuentas estamos realizando una accion concreta pero el dividir el codigo lo hace mas simple y logico a simple vista.</p>
+	<span style="color:#66d9ef">if</span> registros[<span style="color:#ae81ff">5</span>] <span style="color:#f92672">not</span> <span style="color:#f92672">in</span> <span style="color:#e6db74">&#39;este valor&#39;</span>:
+		<span style="color:#66d9ef">print</span>(registros)
+</code></pre></div><p>Como puedes ver, abrimos un archivo y despues dejamos una linea en blanco para separar el codigo y realizar uno paso condicional, al fin de cuentas estamos realizando una accion concreta pero el dividir el codigo lo hace mas simple y logico a simple vista.</p>
 <h2 id="espacios-en-blanco">Espacios en blanco.</h2>
 <p>PEP8 no ayuda a saber donde y como utilizar los espacion al momento de declarar variables o usar operadores dentro de nustro codigo.</p>
 <p>Usar espacion al realizar asignaciones o declarar variables:</p>
-<pre><code># uso correcto
-x = 5
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># uso correcto</span>
+x <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
 
-# uso incorrecto
-x=5
-</code></pre><p>En funciones con argumentos por defecto, no se deben dejar espacio, tampoco debe haber espacio dentro del parentesis a menos que sea para separar argumentos:</p>
-<pre><code>def funcion(phone=3):
-	pass
+<span style="color:#75715e"># uso incorrecto</span>
+x<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>
+</code></pre></div><p>En funciones con argumentos por defecto, no se deben dejar espacio, tampoco debe haber espacio dentro del parentesis a menos que sea para separar argumentos:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">funcion</span>(phone<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>):
+	<span style="color:#66d9ef">pass</span>
 
-def funcion2(argumento1, argumento2):
-	pass
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">funcion2</span>(argumento1, argumento2):
+	<span style="color:#66d9ef">pass</span>
 
-</code></pre><p><em>[si, si, se que deje solo un espacion entre cada funcion, cuando deberian de ser 2, es intencional, para que con la practica no solo analizes tu codigo, sino tambien el de los demas.]</em></p>
+</code></pre></div><p><em>[si, si, se que deje solo un espacion entre cada funcion, cuando deberian de ser 2, es intencional, para que con la practica no solo analizes tu codigo, sino tambien el de los demas.]</em></p>
 <p>Agrupacion por orden de ejecucion:</p>
-<pre><code>if n &gt; 0 and n % 2 == 0:
-	print(n)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">if</span> n <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">and</span> n <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+	<span style="color:#66d9ef">print</span>(n)
 
-if n&gt;0 and n%2==0:
-	print(n)
+<span style="color:#66d9ef">if</span> n<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">0</span> <span style="color:#f92672">and</span> n<span style="color:#f92672">%</span><span style="color:#ae81ff">2</span><span style="color:#f92672">==</span><span style="color:#ae81ff">0</span>:
+	<span style="color:#66d9ef">print</span>(n)
 
-</code></pre><p>Puedes usar los 2 ejemplos de arriba pero evita combinarlos de la siguiente manera:</p>
-<pre><code>if n&gt;0 and n % 2 == 0:
-	print(n)
+</code></pre></div><p>Puedes usar los 2 ejemplos de arriba pero evita combinarlos de la siguiente manera:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">if</span> n<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">0</span> <span style="color:#f92672">and</span> n <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+	<span style="color:#66d9ef">print</span>(n)
 
-</code></pre><p>Los espacion en blanco no se deben usar en listas, diccionarios, tuplas o sets, solo si es para dividir elementos:</p>
-<pre><code>lista = [1, 2, 3]
-diccionario = {&quot;nombre&quot;: &quot;eliot&quot;, &quot;edad&quot;: 33}
-</code></pre><p>Otro punto importe, es no tatar de alinear las variables al declararlas:</p>
-<pre><code># correcto
-uno = 10
-otro_var = 33
+</code></pre></div><p>Los espacion en blanco no se deben usar en listas, diccionarios, tuplas o sets, solo si es para dividir elementos:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">lista <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>]
+diccionario <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;nombre&#34;</span>: <span style="color:#e6db74">&#34;eliot&#34;</span>, <span style="color:#e6db74">&#34;edad&#34;</span>: <span style="color:#ae81ff">33</span>}
+</code></pre></div><p>Otro punto importe, es no tatar de alinear las variables al declararlas:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># correcto</span>
+uno <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
+otro_var <span style="color:#f92672">=</span> <span style="color:#ae81ff">33</span>
 
-# incorrecto
-uno =      10
-otro_var = 33
-</code></pre><h2 id="identación-del-código">Identación del código.</h2>
+<span style="color:#75715e"># incorrecto</span>
+uno <span style="color:#f92672">=</span>      <span style="color:#ae81ff">10</span>
+otro_var <span style="color:#f92672">=</span> <span style="color:#ae81ff">33</span>
+</code></pre></div><h2 id="identación-del-código">Identación del código.</h2>
 <p>tal vez hayas notado que python no utiliza llaves {} en cada bloque de codigo como por ejemplo <strong>C++</strong>:</p>
-<pre><code>#include &lt;iostream&gt;
- 
-int main () 
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span> 
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span> () 
 {
-    std::cout &lt;&lt; &quot;Hola, mundo&quot;;
-    return 0;
+    std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Hola, mundo&#34;</span>;
+    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
 }
-</code></pre><p>En su lugar usa la indentacion, indica un determinado bloque de codigo, el cual se representa usando 4 espacios o tabulador, hay que tener cuidado con este ultimo, primero porque python recomienda 4 espacio y si llegaramos a usar un tab en otro editor de texto, este pude usar un numero de tabulacion diferente. Supongoamos que usamos un tabulador de 6 y se nos ocurre solo borrar 2 espacios para dejarlo en 4, python puede marcar error, de igual manera evita convinar espacion y tabulador, si el editor lo permite, configura el tabulador en 4 o de lo contrario utiliza 4 espacio.</p>
-<pre><code>for i in range(34):
-	print(i)
-</code></pre><p>Identar lineas de codigo muy largas para evitar mas de 79 caracteres:</p>
-<pre><code>def identar_linea(argumento1, argumento2, argumento3,
+</code></pre></div><p>En su lugar usa la indentacion, indica un determinado bloque de codigo, el cual se representa usando 4 espacios o tabulador, hay que tener cuidado con este ultimo, primero porque python recomienda 4 espacio y si llegaramos a usar un tab en otro editor de texto, este pude usar un numero de tabulacion diferente. Supongoamos que usamos un tabulador de 6 y se nos ocurre solo borrar 2 espacios para dejarlo en 4, python puede marcar error, de igual manera evita convinar espacion y tabulador, si el editor lo permite, configura el tabulador en 4 o de lo contrario utiliza 4 espacio.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">34</span>):
+	<span style="color:#66d9ef">print</span>(i)
+</code></pre></div><p>Identar lineas de codigo muy largas para evitar mas de 79 caracteres:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">identar_linea</span>(argumento1, argumento2, argumento3,
 				  argumento4, argumento5):
-	pass
+	<span style="color:#66d9ef">pass</span>
 
-# pudes usar \ para acortar condicones:
-for i in a and\
-	i not in r:
-	print(...)
+<span style="color:#75715e"># pudes usar \ para acortar condicones:</span>
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> a <span style="color:#f92672">and</span>\
+	i <span style="color:#f92672">not</span> <span style="color:#f92672">in</span> r:
+	<span style="color:#66d9ef">print</span>(<span style="color:#f92672">...</span>)
 
-# o con la ayuda de parentesis:
-for (i in a and
-	i not in r):
-	print(...)
-</code></pre><p>Realmente no sucede nada si no identas lineas muy largas como una lista o argumentos dentro de una funcion, pero ayudan mucho para evitar hacer scroll a la derecha o cuando se trabaja con divisiones en algun editor.</p>
+<span style="color:#75715e"># o con la ayuda de parentesis:</span>
+<span style="color:#66d9ef">for</span> (i <span style="color:#f92672">in</span> a <span style="color:#f92672">and</span>
+	i <span style="color:#f92672">not</span> <span style="color:#f92672">in</span> r):
+	<span style="color:#66d9ef">print</span>(<span style="color:#f92672">...</span>)
+</code></pre></div><p>Realmente no sucede nada si no identas lineas muy largas como una lista o argumentos dentro de una funcion, pero ayudan mucho para evitar hacer scroll a la derecha o cuando se trabaja con divisiones en algun editor.</p>
 <h2 id="tamaño-de-las-lineas">Tamaño de las lineas.</h2>
 <p>Es recomendable limitar el tamaño de las lineas a 79 caracteres, por otro lado para los <em>docstring</em> y comentarios usar 72 caracteres.</p>
-<pre><code># para romper una linea que no sea posible dividir puedes usar \
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># para romper una linea que no sea posible dividir puedes usar \</span>
 
-import csv
+<span style="color:#f92672">import</span> csv
 
-with open(r'/file/dir_other_file/dir1/dir_dir_dir/file_file.csv', 'r') as file,\
-	open(r'archivo_de_salida/salida.txt', 'w', newline='') as salida:
+<span style="color:#66d9ef">with</span> open(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;/file/dir_other_file/dir1/dir_dir_dir/file_file.csv&#39;</span>, <span style="color:#e6db74">&#39;r&#39;</span>) <span style="color:#66d9ef">as</span> file,\
+	open(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;archivo_de_salida/salida.txt&#39;</span>, <span style="color:#e6db74">&#39;w&#39;</span>, newline<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>) <span style="color:#66d9ef">as</span> salida:
 
-	lector = csv.reader(file)
-	escritor = csv.writer(salida)
+	lector <span style="color:#f92672">=</span> csv<span style="color:#f92672">.</span>reader(file)
+	escritor <span style="color:#f92672">=</span> csv<span style="color:#f92672">.</span>writer(salida)
 
-	for e in lector:
-		escritor.writerow(e)
-</code></pre><h2 id="palabras-reservadas-en-python">Palabras reservadas en Python.</h2>
+	<span style="color:#66d9ef">for</span> e <span style="color:#f92672">in</span> lector:
+		escritor<span style="color:#f92672">.</span>writerow(e)
+</code></pre></div><h2 id="palabras-reservadas-en-python">Palabras reservadas en Python.</h2>
 <p>Las palabras reservadas como su nobre lo dice, estan reservadas para ser usadas solo por python y se pide que jamas se utilizen para nombrar o asignar variables. Podemos ver todas la s palabras reservadas de la siguiente forma:</p>
-<pre><code>import keyword
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> keyword
 
-for palabras_reservadas in keyword.kwlist:
-	print(palabras_reservadas)
+<span style="color:#66d9ef">for</span> palabras_reservadas <span style="color:#f92672">in</span> keyword<span style="color:#f92672">.</span>kwlist:
+	<span style="color:#66d9ef">print</span>(palabras_reservadas)
 
-# aqui estan todas si quieres evitar escribir lo de arriba.
-False      class      finally    is         return
-None       continue   for        lambda     try
-True       def        from       nonlocal   while
-and        del        global     not        with
-as         elif       if         or         yield
-assert     else       import     pass
-break      except     in         raise
-</code></pre><p>lo puedes escribir en el IDLE de python si te encuentras en windows y presionar <code>F5</code> o crear un archivo .py.</p>
+<span style="color:#75715e"># aqui estan todas si quieres evitar escribir lo de arriba.</span>
+False      <span style="color:#66d9ef">class</span>      <span style="color:#a6e22e">finally</span>    <span style="color:#f92672">is</span>         <span style="color:#66d9ef">return</span>
+None       <span style="color:#66d9ef">continue</span>   <span style="color:#66d9ef">for</span>        <span style="color:#66d9ef">lambda</span>     <span style="color:#66d9ef">try</span>
+True       <span style="color:#66d9ef">def</span>        <span style="color:#a6e22e">from</span>       nonlocal   <span style="color:#66d9ef">while</span>
+<span style="color:#f92672">and</span>        <span style="color:#66d9ef">del</span>        <span style="color:#66d9ef">global</span>     <span style="color:#f92672">not</span>        <span style="color:#66d9ef">with</span>
+<span style="color:#66d9ef">as</span>         <span style="color:#66d9ef">elif</span>       <span style="color:#66d9ef">if</span>         <span style="color:#f92672">or</span>         <span style="color:#66d9ef">yield</span>
+<span style="color:#66d9ef">assert</span>     <span style="color:#66d9ef">else</span>       <span style="color:#f92672">import</span>     pass
+<span style="color:#66d9ef">break</span>      <span style="color:#66d9ef">except</span>     <span style="color:#f92672">in</span>         <span style="color:#66d9ef">raise</span>
+</code></pre></div><p>lo puedes escribir en el IDLE de python si te encuentras en windows y presionar <code>F5</code> o crear un archivo .py.</p>
 <p>Para nombrar variables evita hacerlo con espacios y en su lugar usa <code>_</code>:</p>
-<pre><code># Algunos ejemplos de como nombrar variables
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Algunos ejemplos de como nombrar variables</span>
 
 esto_es_una_variable
 EstoEsUnaVariable
 
-# para funciones, solo pueden ser en minuscular y separadas por guion
-def esto_es_una_funcion():
-	pass
+<span style="color:#75715e"># para funciones, solo pueden ser en minuscular y separadas por guion</span>
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">esto_es_una_funcion</span>():
+	<span style="color:#66d9ef">pass</span>
 
-# para clases simpre la primera letra debe ser en mayuscula sin guines y la 
-# segunda palabra tambien debe comenzar en mayuscula.
+<span style="color:#75715e"># para clases simpre la primera letra debe ser en mayuscula sin guines y la </span>
+<span style="color:#75715e"># segunda palabra tambien debe comenzar en mayuscula.</span>
 
-class Empleados:
-	pass
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Empleados</span>:
+	<span style="color:#66d9ef">pass</span>
 
-class EmpleadosTi:
-	class
-</code></pre><p>Los nombres de los modulos (tus archivos python) deben nombrarse asi <code>mimodulo.py</code> o <code>mi_modulo.py</code>.</p>
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">EmpleadosTi</span>:
+	<span style="color:#66d9ef">class</span>
+</code></pre></div><p>Los nombres de los modulos (tus archivos python) deben nombrarse asi <code>mimodulo.py</code> o <code>mi_modulo.py</code>.</p>
 <p>Para importar modulos, deben de importarse uno por linea si es que son modulos difertes:</p>
-<pre><code># correcto
-import csv
-import time
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># correcto</span>
+<span style="color:#f92672">import</span> csv
+<span style="color:#f92672">import</span> time
 
-# incorrecto
-import time, csv
+<span style="color:#75715e"># incorrecto</span>
+<span style="color:#f92672">import</span> time<span style="color:#f92672">,</span> csv
 
-# si pertenecen a una misma libreira se puden pasar en la misma linea
-from time import time, sleep
+<span style="color:#75715e"># si pertenecen a una misma libreira se puden pasar en la misma linea</span>
+<span style="color:#f92672">from</span> time <span style="color:#f92672">import</span> time, sleep
 
-# y en lugar de imortar todos los modulos, es mejor importar solo los necesarios
+<span style="color:#75715e"># y en lugar de imortar todos los modulos, es mejor importar solo los necesarios</span>
 
-# incorrecto
+<span style="color:#75715e"># incorrecto</span>
 
-from Collections import *
+<span style="color:#f92672">from</span> Collections <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
 
-# correcto
+<span style="color:#75715e"># correcto</span>
 
-from Collections import Counter
-</code></pre><h2 id="comentarios">Comentarios.</h2>
+<span style="color:#f92672">from</span> Collections <span style="color:#f92672">import</span> Counter
+</code></pre></div><h2 id="comentarios">Comentarios.</h2>
 <p>Los comentarios son una forma de realizar anotacones o describir nuestro codigo para darle seguimiento y que los demas puedan saber de que se trata el codigo, para esto tenemos 2 formas de hacerlo:</p>
-<pre><code># comentario de una sola linea
-# aunque puede sañadir otra linea colocando una almoadilla
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># comentario de una sola linea</span>
+<span style="color:#75715e"># aunque puede sañadir otra linea colocando una almoadilla</span>
 
-&quot;&quot;&quot;
-comentario multilinea utilizando tripe comilla doblre &quot; o simple '.
-con esto puedes domunetar una area de codigo que requiera cierto nivel de explicacion. 
-&quot;&quot;&quot;
+<span style="color:#e6db74">&#34;&#34;&#34;
+</span><span style="color:#e6db74">comentario multilinea utilizando tripe comilla doblre &#34; o simple &#39;.
+</span><span style="color:#e6db74">con esto puedes domunetar una area de codigo que requiera cierto nivel de explicacion. 
+</span><span style="color:#e6db74">&#34;&#34;&#34;</span>
 
-</code></pre><p>No hay que confundir los comentarios con los <em>docstring</em>, un comentario se utiliza para aumentar la legibilida, compresion del codigo y solo son visibles o accesibles desde dentro del codigo, mientras que, un <em>docstring</em> es muy similar a un comentario, pues utiliza triple comilla doble <code>&quot;</code>, pero este es de gran ayuda en clases y funciones, ya que permiten añadir una descripcion de que hace o como funciona cada objeto.</p>
-<pre><code># esto es un comentario de una sola linea
+</code></pre></div><p>No hay que confundir los comentarios con los <em>docstring</em>, un comentario se utiliza para aumentar la legibilida, compresion del codigo y solo son visibles o accesibles desde dentro del codigo, mientras que, un <em>docstring</em> es muy similar a un comentario, pues utiliza triple comilla doble <code>&quot;</code>, pero este es de gran ayuda en clases y funciones, ya que permiten añadir una descripcion de que hace o como funciona cada objeto.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># esto es un comentario de una sola linea</span>
 
-&quot;&quot;&quot;
-comentario de varias lineas
-para docuentar o añadir ayuda a los progremadores externos
-&quot;&quot;&quot;
+<span style="color:#e6db74">&#34;&#34;&#34;
+</span><span style="color:#e6db74">comentario de varias lineas
+</span><span style="color:#e6db74">para docuentar o añadir ayuda a los progremadores externos
+</span><span style="color:#e6db74">&#34;&#34;&#34;</span>
 
-def prueba(a:int, b:float) -&gt; int:
-	&quot;&quot;&quot;&quot;Funcion que recibe 2 argumentos de tipo entero&quot;&quot;&quot;
-	pass
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">prueba</span>(a:int, b:float) <span style="color:#f92672">-&gt;</span> int:
+	<span style="color:#e6db74">&#34;&#34;&#34;&#34;Funcion que recibe 2 argumentos de tipo entero&#34;&#34;&#34;</span>
+	<span style="color:#66d9ef">pass</span>
     
 
 
-class DocExample:
-    &quot;&quot;&quot;Explicacion de la clase&quot;&quot;&quot;&quot;
-	pass
-</code></pre><p>Los <em>docstring</em> que como ya lo pudiste notar, se tiene que declaran con triple comilla doble <code>&quot;</code> y deben estar justo debajo de la clase y de su funcion, para acceder a estos metodos lo hacemos de la siquiente manera <code>help(prueba)</code>, lo que es, la palabra reservada help y dentro de los parentesis el nombre de la funcion o de la clase.</p>
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">DocExample</span>:
+    <span style="color:#e6db74">&#34;&#34;&#34;Explicacion de la clase&#34;&#34;&#34;&#34;</span>
+	<span style="color:#66d9ef">pass</span>
+</code></pre></div><p>Los <em>docstring</em> que como ya lo pudiste notar, se tiene que declaran con triple comilla doble <code>&quot;</code> y deben estar justo debajo de la clase y de su funcion, para acceder a estos metodos lo hacemos de la siquiente manera <code>help(prueba)</code>, lo que es, la palabra reservada help y dentro de los parentesis el nombre de la funcion o de la clase.</p>
 
     </div>
     
@@ -427,6 +413,13 @@ class DocExample:
             <hr />
           </div>
           <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="https://codigonovato.netlify.app/posts/test/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Test</span>
+                </a>
+              </span>
             
             
               <span class="button next">
