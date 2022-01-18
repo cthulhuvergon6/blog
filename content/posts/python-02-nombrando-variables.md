@@ -2,7 +2,7 @@
 title: "Python 02 Nombrando Variables"
 date: 2022-01-18T14:27:29-06:00
 author : "El Señor Robot"
-cover : ""
+cover : "/cover02.png"
 tags : ["python", "02", "variables", "comentarios"]
 keywords : ["python", "variables"]
 description : ""
@@ -140,6 +140,12 @@ nombre, edad = user.values()
 # 3.7 los diccionarios mantiene el orden a como fueron creados, por es misma
 # razón en otras versiones menores los valores no pueden ser los esperados
 
+# incluso lo podemos usar en la funcion format(), con esto evitamos acceder
+# a todos los elementos por su indice
+
+elementos = ['hoja', 'vaso', 'agua', 'python']
+
+print('{},{},{},{}'.format(*elementos))
 
 ```
 
