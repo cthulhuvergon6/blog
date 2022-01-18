@@ -261,7 +261,7 @@ resultado <span style="color:#f92672">=</span> a <span style="color:#f92672">+</
 
 lista <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>]
 
-</code></pre></div><p>Si estas en la terminal o usas el IDLE de python puedas usar la función <code>type()</code>, la cual pasándole un argumento, en este caso el nombre de cualquiera de las variables que haya declarado, te mostrara el tipo de clase de la variable.</p>
+</code></pre></div><p>Si estas en la terminal o usas el IDLE de python puedas usar la función <code>type()</code>, la cual pasándole un argumento, en este caso el nombre de cualquiera de las variables que hayas declarado, te mostrara el tipo de clase de la variable.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># tenemos dos formas de hacerlo</span>
 
 <span style="color:#66d9ef">print</span>(type(cadena))
@@ -281,7 +281,7 @@ type(decimal)
 <span style="color:#75715e"># otra opción que puedes usar</span>
 
 <span style="color:#66d9ef">print</span>(type([]) <span style="color:#f92672">is</span> list) <span style="color:#75715e"># True</span>
-</code></pre></div><h2 id="asignación-múltiple-ó-desempaquetado-de-tuplas">Asignación múltiple ó desempaquetado de tuplas.</h2>
+</code></pre></div><h2 id="asignación-múltiple-o-desempaquetado-de-tuplas">Asignación múltiple o desempaquetado de tuplas.</h2>
 <h2 id="asignación-múltiple">Asignación múltiple.</h2>
 <p>Es muy similar a lo que ya hicimos en unos pasos más arriba, pero con la asignación múltiple podemos asignar múltiples variables al mismo tiempo sobre una misma linea. La asignación múltiple puede ser usada en cualquier iterable (cadenas, listas, tuplas, sets y diccionarios).</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># crearemos 3 variables y les asignaremos un valor</span>
@@ -298,7 +298,7 @@ a, b <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Hi&#3
 (a), (b) <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Hi&#39;</span>
 
 </code></pre></div><p>En el ejemplo de arriba declaramos 3 variables en la misma linea y les asignamos un valor sobre la misma linea, como ya te diste cuenta, les asigna el valor respetando la posición. De haber declarado solo 2 variables obtendríamos un error, ya que se debe declarar por igual el numero de variables por el numero de elementos en el iterable.</p>
-<p>También podemos utilizar la asignación mutile con estructuras de datos como listas, sets, tuplas y diccionarios.</p>
+<p>También podemos utilizar la asignación mutiple con estructuras de datos como listas, sets, tuplas y diccionarios.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># asignación múltiple en estructura de datos</span>
 
 manzana, platano, uva <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;manzana&#39;</span>, <span style="color:#e6db74">&#39;platano&#39;</span>, <span style="color:#e6db74">&#39;uva&#39;</span>]
@@ -342,7 +342,7 @@ uno, dos, tres, cuatro <span style="color:#f92672">=</span> lista
 <span style="color:#66d9ef">for</span> key, value <span style="color:#f92672">in</span> diccionario<span style="color:#f92672">.</span>items():
 	<span style="color:#66d9ef">print</span>(key, value)
 
-</code></pre></div><p><em>[Se que hay elementos que un desconoces como las estructuras de datos o el bucle for, pero no te apures, solo son ejemplos y en los siguientes post entraremos mas a detalle en cada uno de ellos.]</em></p>
+</code></pre></div><p><em>[Se que hay elementos que un desconoces como las estructuras de datos o el bucle for, pero no te apures, solo son ejemplos y en los siguientes post entraremos más a detalle en cada uno de ellos.]</em></p>
 <h2 id="asignar-múltiples-valores-a-una-sola-variable">Asignar múltiples valores a una sola variable.</h2>
 <p>Como vimos podemos asignar valores a múltiples variables declaradas, pero que pasa si tengo 10 elementos y solo 2 variables, pero a una de ellas deseo asignarle una cantidad predeterminada de elementos?.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">lista <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">5</span>,<span style="color:#ae81ff">6</span>,<span style="color:#ae81ff">7</span>,<span style="color:#ae81ff">8</span>,<span style="color:#ae81ff">9</span>]
