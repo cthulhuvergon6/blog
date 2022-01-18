@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        Python 02 Nombrando Variables ::
+        Código Novato
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="Python 02 - Nombrando variables. En este segundo post aprenderemos como nombrar y utilizar correctamente las variables.
+¿Qué es una variable en python? Un variable podría ser una palabra a la que le asignas un valor o una lista vacía para añadirle valores, entonces un valor siempre estará asociado a una variable.
+Nombrar variables. La sintaxis básica seria, nombre_de_la_variable = valor, el valor puede ser un string str, entero int, decimal float, lista, sets, tuplas, diccionario, por nombrar algunos."
+/>
+<meta
+  name="keywords"
+  content="python, variables"
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://codigonovato.netlify.app/posts/python-02-nombrando-variables/" />
+
+
+
+
+
+<link rel="stylesheet" href="https://codigonovato.netlify.app/assets/style.css" />
+
+<link rel="stylesheet" href="https://codigonovato.netlify.app/style.css" />
+
+
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="144x144"
+  href="https://codigonovato.netlify.app/img/apple-touch-icon-144-precomposed.png"
+/>
+<link rel="shortcut icon" href="https://codigonovato.netlify.app/img/favicon.png" />
+
+
+<link href="https://codigonovato.netlify.app/assets/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://codigonovato.netlify.app/assets/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://codigonovato.netlify.app/assets/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://codigonovato.netlify.app/assets/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://codigonovato.netlify.app/assets/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://codigonovato.netlify.app/assets/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Python 02 Nombrando Variables"/>
+<meta name="twitter:description" content="Python 02 - Nombrando variables. En este segundo post aprenderemos como nombrar y utilizar correctamente las variables.
+¿Qué es una variable en python? Un variable podría ser una palabra a la que le asignas un valor o una lista vacía para añadirle valores, entonces un valor siempre estará asociado a una variable.
+Nombrar variables. La sintaxis básica seria, nombre_de_la_variable = valor, el valor puede ser un string str, entero int, decimal float, lista, sets, tuplas, diccionario, por nombrar algunos."/>
+
+
+
+<meta property="og:title" content="Python 02 Nombrando Variables" />
+<meta property="og:description" content="Python 02 - Nombrando variables. En este segundo post aprenderemos como nombrar y utilizar correctamente las variables.
+¿Qué es una variable en python? Un variable podría ser una palabra a la que le asignas un valor o una lista vacía para añadirle valores, entonces un valor siempre estará asociado a una variable.
+Nombrar variables. La sintaxis básica seria, nombre_de_la_variable = valor, el valor puede ser un string str, entero int, decimal float, lista, sets, tuplas, diccionario, por nombrar algunos." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://codigonovato.netlify.app/posts/python-02-nombrando-variables/" />
+<meta property="article:published_time" content="2022-01-18T14:27:29-06:00" />
+<meta property="article:modified_time" content="2022-01-18T14:27:29-06:00" /><meta property="og:site_name" content="Código Novato" />
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Código Novato</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/pages/about">About</a></li>
+        
+      
+        
+          <li><a href="/pages/python">Python</a></li>
+        
+      
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/pages/about">About</a></li>
+      
+    
+      
+        <li><a href="/pages/python">Python</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post">
+    <h1 class="post-title">Python 02 Nombrando Variables</h1>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2022-01-18
+        </span>
+
+        
+          
+        
+      
+
+      
+        <span class="post-author"
+          >— Written by El Señor Robot</span
+        >
+
+
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          <a href="https://codigonovato.netlify.app/tags/python/">#python</a>&nbsp;
+        
+          <a href="https://codigonovato.netlify.app/tags/02/">#02</a>&nbsp;
+        
+          <a href="https://codigonovato.netlify.app/tags/variables/">#variables</a>&nbsp;
+        
+          <a href="https://codigonovato.netlify.app/tags/comentarios/">#comentarios</a>&nbsp;
+        
+      </span>
+    
+
+    
+
+    <div class="post-content">
+      
+      <h2 id="python-02---nombrando-variables">Python 02 - Nombrando variables.</h2>
+<p>En este segundo post aprenderemos como nombrar y utilizar correctamente las variables.</p>
+<h2 id="qué-es-una-variable-en-python">¿Qué es una variable en python?</h2>
+<p>Un variable podría ser una palabra a la que le asignas un valor o una lista vacía para añadirle valores, entonces un valor siempre estará asociado a una variable.</p>
+<h2 id="nombrar-variables">Nombrar variables.</h2>
+<p>La sintaxis básica seria, <code>nombre_de_la_variable = valor</code>, el valor puede ser un string <code>str</code>, entero <code>int</code>, decimal <code>float</code>, lista, sets, tuplas, diccionario, por nombrar algunos.</p>
+<ul>
+<li>Deben comenzar por una letra o guión bajo <code>_</code>.</li>
+<li>El uso de palabras reservadas esta prohibido.</li>
+<li>Usar nombres descriptivos.</li>
+<li>Deben estar escritas en minúsculas y separadas por <code>_</code>.</li>
+<li>Las constantes deben ser en mayúsculas y separadas con <code>_</code>:
+un detalle con las constantes es que realmente en python no existen, si bien las constantes son para declarar variables que no van a cambiar con el tiempo y que por defecto no se pueden modificar, la cosa es que en python si las puedes modificar, pero si ves o declaras una constante deberías evitar modificarla, ya que tiene su motivo de existir dentro del programa.</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># ejemplo de nombrar variables</span>
+
+<span style="color:#75715e"># correcto</span>
+nombre_de_mi_variable
+palabra
+registro_8
+_mi_variable
+CONSTANTE
+
+<span style="color:#75715e"># incorrecto, no pueden iniciar con `.`, `-` o numero al inicio</span>
+<span style="color:#f92672">-</span>variable
+<span style="color:#ae81ff">23</span>variable
+<span style="color:#f92672">.</span>palabra
+
+<span style="color:#75715e"># ejemplos prácticos</span>
+cadena <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;esto es una palabra&#39;</span> <span style="color:#75715e"># recuerda que puedes usar comilla simple o doble</span>
+
+<span style="color:#75715e"># puedes mezclar las comillas para resaltar algun valor o palabra</span>
+cadena <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Esto es una &#34;gran palabra&#34;&#39;</span>
+
+entero <span style="color:#f92672">=</span> <span style="color:#ae81ff">13</span> <span style="color:#75715e"># entero</span>
+decimal <span style="color:#f92672">=</span> <span style="color:#ae81ff">13.15</span> <span style="color:#75715e"># float</span>
+
+<span style="color:#75715e"># las literales es lo mismo que una variable pero es directamente descriptivo</span>
+
+color_rojo <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;red&#39;</span>
+
+<span style="color:#75715e"># para ver los resultado con la ayuda de print()</span>
+
+<span style="color:#66d9ef">print</span>(color_rojo)
+
+<span style="color:#75715e"># puedes asignar el resultado de otras variables</span>
+
+a <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>
+b <span style="color:#f92672">=</span> <span style="color:#ae81ff">15</span>
+resultado <span style="color:#f92672">=</span> a <span style="color:#f92672">+</span> b
+<span style="color:#66d9ef">print</span>(resultado)
+
+<span style="color:#75715e"># declarar una lista con valores predeterminados</span>
+
+lista <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>]
+
+</code></pre></div><p>Si estas en la terminal o usas el IDLE de python puedas usar la función <code>type()</code>, la cual pasándole un argumento, en este caso el nombre de cualquiera de las variables que haya declarado, te mostrara el tipo de clase de la variable.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># tenemos dos formas de hacerlo</span>
+
+<span style="color:#66d9ef">print</span>(type(cadena))
+
+<span style="color:#75715e"># o solo</span>
+
+type(cadena)
+type(entero)
+type(decimal)
+
+<span style="color:#75715e"># también podemos hacer lo siguiente</span>
+
+<span style="color:#66d9ef">print</span>(type(cadena) <span style="color:#f92672">is</span> str) <span style="color:#75715e"># devuelve True</span>
+<span style="color:#66d9ef">print</span>(type(entero) <span style="color:#f92672">is</span> int) <span style="color:#75715e"># True</span>
+<span style="color:#66d9ef">print</span>(type(decimal) <span style="color:#f92672">is</span> float) <span style="color:#75715e"># True</span>
+
+<span style="color:#75715e"># otra opción que puedes usar</span>
+
+<span style="color:#66d9ef">print</span>(type([]) <span style="color:#f92672">is</span> list) <span style="color:#75715e"># True</span>
+</code></pre></div><h2 id="asignación-múltiple-ó-desempaquetado-de-tuplas">Asignación múltiple ó desempaquetado de tuplas.</h2>
+<h2 id="asignación-múltiple">Asignación múltiple.</h2>
+<p>Es muy similar a lo que ya hicimos en unos pasos más arriba, pero con la asignación múltiple podemos asignar múltiples variables al mismo tiempo sobre una misma linea. La asignación múltiple puede ser usada en cualquier iterable (cadenas, listas, tuplas, sets y diccionarios).</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># crearemos 3 variables y les asignaremos un valor</span>
+
+cadena, entero, decimal <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;palabra&#39;</span>, <span style="color:#ae81ff">300</span>, <span style="color:#ae81ff">193.12</span>
+
+<span style="color:#75715e"># desde cli o IDLE basta con escribir la variable y dar enter para ver el </span>
+<span style="color:#75715e"># resultado, en editores de texto hay que usar print(variable)</span>
+
+<span style="color:#75715e"># también podemos usarlo con cadenas</span>
+a, b <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Hi&#39;</span> <span style="color:#75715e"># a = &#39;H&#39; y b = &#39;i&#39;</span>
+<span style="color:#75715e"># el uso de paréntesis `()` es opcional</span>
+
+(a), (b) <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Hi&#39;</span>
+
+</code></pre></div><p>En el ejemplo de arriba declaramos 3 variables en la misma linea y les asignamos un valor sobre la misma linea, como ya te diste cuenta, les asigna el valor respetando la posición. De haber declarado solo 2 variables obtendríamos un error, ya que se debe declarar por igual el numero de variables por el numero de elementos en el iterable.</p>
+<p>También podemos utilizar la asignación mutile con estructuras de datos como listas, sets, tuplas y diccionarios.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># asignación múltiple en estructura de datos</span>
+
+manzana, platano, uva <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;manzana&#39;</span>, <span style="color:#e6db74">&#39;platano&#39;</span>, <span style="color:#e6db74">&#39;uva&#39;</span>]
+
+<span style="color:#75715e"># con listas, tuplas y sets, la asignación múltiple es igual, pero en diccionarios</span>
+<span style="color:#75715e"># es diferente.</span>
+user <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;nombre&#39;</span>:<span style="color:#e6db74">&#39;elliot&#39;</span>, <span style="color:#e6db74">&#39;edad&#39;</span>: <span style="color:#ae81ff">30</span>}
+
+<span style="color:#75715e"># de esta manera solo obtienes las key (claves)</span>
+nombre, edad <span style="color:#f92672">=</span> user
+
+<span style="color:#75715e"># para obtener los valores necesitamos la función values()</span>
+nombre, edad <span style="color:#f92672">=</span> user<span style="color:#f92672">.</span>values()
+
+<span style="color:#75715e"># si estas en una versión de python 3.6 o menor puede que hayas notado que</span>
+<span style="color:#75715e"># la asignación no mantuvo el orden esperado y es que solo a partir de python</span>
+<span style="color:#75715e"># 3.7 los diccionarios mantiene el orden a como fueron creados, por es misma</span>
+<span style="color:#75715e"># razón en otras versiones menores los valores no pueden ser los esperados</span>
+
+
+</code></pre></div><h2 id="desempaquetado">Desempaquetado.</h2>
+<p>Es lo mismo que la asignación múltiple, pero como su nombre lo dice, nos permite desempaquetar elementos de una variable con elementos ya declarados.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># desempaquetar una lista</span>
+
+lista <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">4</span>]
+uno, dos, tres, cuatro <span style="color:#f92672">=</span> lista
+
+<span style="color:#75715e"># podemos realizar un desempaquetado haciendo uso del bucle for</span>
+
+<span style="color:#66d9ef">for</span> uno, dos, tres, cuatro <span style="color:#f92672">in</span> lista:
+	<span style="color:#66d9ef">print</span>(uno, dos, tres, cuatro)
+
+<span style="color:#75715e"># para usar un for dentro de un diccionario seria así</span>
+
+<span style="color:#66d9ef">for</span> key, value <span style="color:#f92672">in</span> diccionario<span style="color:#f92672">.</span>items():
+	<span style="color:#66d9ef">print</span>(key, value)
+
+</code></pre></div><p><em>[Se que hay elementos que un desconoces como las estructuras de datos o el bucle for, pero no te apures, solo son ejemplos y en los siguientes post entraremos mas a detalle en cada uno de ellos.]</em></p>
+<h2 id="asignar-múltiples-valores-a-una-sola-variable">Asignar múltiples valores a una sola variable.</h2>
+<p>Como vimos podemos asignar valores a múltiples variables declaradas, pero que pasa si tengo 10 elementos y solo 2 variables, pero a una de ellas deseo asignarle una cantidad predeterminada de elementos?.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">lista <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">5</span>,<span style="color:#ae81ff">6</span>,<span style="color:#ae81ff">7</span>,<span style="color:#ae81ff">8</span>,<span style="color:#ae81ff">9</span>]
+<span style="color:#75715e"># en a solo asignamos 3 elementos, mientras que b se lleva los demás</span>
+a <span style="color:#f92672">=</span> lista[<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">3</span>] <span style="color:#75715e"># [1, 2, 3]</span>
+b <span style="color:#f92672">=</span> lista[<span style="color:#ae81ff">3</span>:] <span style="color:#75715e"># [4, 5, 6, 7, 8, 9]</span>
+
+<span style="color:#75715e"># en este caso hicimos uso de slices o cortes</span>
+
+</code></pre></div><h2 id="uso-de--como-alternativa-a-cortes-los-corte-o-rebanadas-las-veremos-en-las-listas">Uso de <code>*</code> como alternativa a cortes <em>(los corte o rebanadas las veremos en las listas)</em>.</h2>
+<p>El uso de <code>*</code> permite que al colocarlo junto y antes de la variable se le asignen múltiples elementos. Veamos un par de ejemplos.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">lista <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">5</span>,<span style="color:#ae81ff">6</span>,<span style="color:#ae81ff">7</span>,<span style="color:#ae81ff">8</span>,<span style="color:#ae81ff">9</span>]
+
+a, <span style="color:#f92672">*</span>b <span style="color:#f92672">=</span> lista
+
+<span style="color:#75715e"># donde `a` solo obtendria `1` y `b` `2,3,4,5,6,7,8,9`</span>
+
+inicio, <span style="color:#f92672">*</span>medio, fin <span style="color:#f92672">=</span> lista
+
+<span style="color:#75715e"># quedaría así `inicio[1]`, `medio[2,3,4,5,6,7,8]` y `fin[9]`</span>
+
+<span style="color:#75715e"># que a su vez seria similar a:</span>
+lista_anidada <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>], [<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">5</span>,<span style="color:#ae81ff">6</span>], [<span style="color:#ae81ff">7</span>,<span style="color:#ae81ff">8</span>,<span style="color:#ae81ff">9</span>]]
+
+a, b, c <span style="color:#f92672">=</span> lista_anidada
+
+<span style="color:#75715e"># donde cada variable obtiene una lista</span>
+<span style="color:#75715e"># `a = [1,2,3]`, `b = [4,5,6]` y `c[7,8,9]`</span>
+
+<span style="color:#75715e"># suponiendo que quisiéramos desempaquetar los elementos de una lista anidada</span>
+a, [b,c,d], e <span style="color:#f92672">=</span> lista_anidada
+
+<span style="color:#75715e"># a y e obtiene una lista mientras que b, c y d obtiene solo un elemento</span>
+<span style="color:#75715e"># `a = [1,2,3]`, `b=4`, `c=5`, `d=6` y `e = [7,8,9]` </span>
+</code></pre></div><hr>
+<h2 id="todo-esto-que-escribo-es-con-la-intención-de-pasar-todas-mis-notas-sobre-python-para-que-puedan-ser-de-ayuda-no-soy-experto-en-python-y-reconozco-que-pueden-haber-un-par-de-errores-ya-que-también-me-encuentro-aprendiendo-más-cosas-sobre-este-lenguaje-de-programación-tan-amplio-recuerda-poner-en-practica-todo-lo-que-veas-aquí-o-en-cualquier-otro-lado-la-practica-hace-al-maestro">NOTA:
+Todo esto que escribo es con la intención de pasar todas mis notas sobre python para que puedan ser de ayuda, no soy experto en python y reconozco que pueden haber un par de errores, ya que también me encuentro aprendiendo más cosas sobre este lenguaje de programación tan amplio. Recuerda poner en practica todo lo que veas aquí o en cualquier otro lado, la practica hace al maestro.</h2>
+<p><em>[Este blog es ajeno a cualquier partido político del &ldquo;Bienestar&rdquo;. Saludos a la canica]</em></p>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h"
+              >Read other posts</span
+            >
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+            
+              <span class="button next">
+                <a href="https://codigonovato.netlify.app/posts/python-01-syntax/">
+                  <span class="button__text">Python 01 Syntax</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+    
+      
+        
+
+      
+    
+  </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Código Novato</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span
+          >© 2022 Powered by
+          <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span
+        >
+        <span
+          >Theme created by
+          <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span
+        >
+      </div>
+    
+  </div>
+</footer>
+
+<script src="https://codigonovato.netlify.app/assets/main.js"></script>
+<script src="https://codigonovato.netlify.app/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>python on Código Novato</title>
+    <title>02 on Código Novato</title>
     
     
     
-    <link>https://codigonovato.netlify.app/tags/python/</link>
-    <description>Recent content in python on Código Novato</description>
+    <link>https://codigonovato.netlify.app/tags/02/</link>
+    <description>Recent content in 02 on Código Novato</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 Jan 2022 14:27:29 -0600</lastBuildDate>
     
-	<atom:link href="https://codigonovato.netlify.app/tags/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://codigonovato.netlify.app/tags/02/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -31,26 +31,6 @@
           Python 02 - Nombrando variables. En este segundo post aprenderemos como nombrar y utilizar correctamente las variables.
 ¿Qué es una variable en python? Un variable podría ser una palabra a la que le asignas un valor o una lista vacía para añadirle valores, entonces un valor siempre estará asociado a una variable.
 Nombrar variables. La sintaxis básica seria, nombre_de_la_variable = valor, el valor puede ser un string str, entero int, decimal float, lista, sets, tuplas, diccionario, por nombrar algunos.
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Python 01 Syntax</title>
-      <link>https://codigonovato.netlify.app/posts/python-01-syntax/</link>
-      <pubDate>Thu, 13 Jan 2022 06:21:39 -0600</pubDate>
-      
-      <guid>https://codigonovato.netlify.app/posts/python-01-syntax/</guid>
-      <description>
-        
-          &lt;img src=&#34;https://codigonovato.netlify.app/cover01.png&#34;/&gt;
-          
-        
-        
-        
-          Python 01 - Syntax. Que tal, este es uno de los primeros post para el tutorial de Python, los cuales los podrás encontrar como post individuales y también lo colocare en Menú para que los puedas tener todos de manera accesible sin tener que buscar.
-Un poco de Python : Fue creado por Guido van Rossum y lo publico por primera vez el 20 de febrero de 1991, la versión actual de python es 3.
           
         
         </description>
