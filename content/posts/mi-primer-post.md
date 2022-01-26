@@ -1,14 +1,16 @@
 +++
-title = "Mi Primer Post"
-date = "2022-01-04T02:13:16-06:00"
 author = "El Señor Robot"
-authorTwitter = "" #do not include @
+authorTwitter = ""
 cover = ""
-tags = ["", ""]
-keywords = ["", ""]
+date = 2022-01-04T08:13:16Z
 description = ""
-showFullContent = false
+keywords = ["", ""]
 readingTime = false
-+++
+showFullContent = false
+tags = ["", ""]
+title = "Mi Primer Post"
 
-#esto es una prueba
++++
+\#esto es una prueba
+
+prueba forestry 
