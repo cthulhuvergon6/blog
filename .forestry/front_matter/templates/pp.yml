@@ -29,3 +29,5 @@ fields:
 - type: boolean
   name: readingTime
   label: readingTime
+pages:
+- content/posts/sitio-con-forestry-crm.md
