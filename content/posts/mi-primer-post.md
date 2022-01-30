@@ -4,7 +4,6 @@ authorTwitter = ""
 cover = ""
 date = 2022-01-30T06:00:00Z
 description = ""
-draft = true
 keywords = ["", ""]
 readingTime = false
 showFullContent = false
