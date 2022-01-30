@@ -2,7 +2,7 @@
 author = "El Señor Robot"
 authorTwitter = ""
 cover = ""
-date = 2022-01-04T08:13:16Z
+date = 2022-01-30T06:00:00Z
 description = ""
 keywords = ["", ""]
 readingTime = false
