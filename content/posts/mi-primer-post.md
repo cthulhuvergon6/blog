@@ -12,5 +12,3 @@ title = "Mi Primer Post"
 
 +++
 \#esto es una prueba
-
-prueba forestry 
