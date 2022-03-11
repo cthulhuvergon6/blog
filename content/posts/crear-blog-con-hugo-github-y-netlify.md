@@ -12,7 +12,7 @@ readingTime = false
 +++
 
 
-Bien, pues en esta primera entrega les mostrare el proceso de como hice mi blog con la ayuda de [Hugo](https://gohugo.io/), [github](github.com) y [netlify](netlify.com).
+Bien, pues en esta primera entrega les mostrare el proceso de como hice mi blog con la ayuda de [Hugo](https://gohugo.io/), [github](https://github.com) y [netlify](https://netlify.com).
 
 
 El proceso lo realice en mi servidor de escritorio (carisimo), es un equipo muy básico como del 2000 que me ayuda para este tipo de proyectos (es mi todo terreno), el equipo no cuenta con monitor por lo cual recurriremos a una poderosa herramienta [ssh](https://es.wikipedia.org/wiki/Secure_Shell), pero no te preocupes, el proceso es idéntico si lo realizas desde tu equipo local (osea, el que estas usando en este momento).
