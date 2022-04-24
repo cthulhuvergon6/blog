@@ -12,6 +12,9 @@ title = "Mi Primer Post"
 
 +++
 \#esto es una prueba
+
 Test build.
+
+Confirm merge!
 
 PYTHON
